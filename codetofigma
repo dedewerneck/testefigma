@@ -1,778 +1,2289 @@
-<div className="w-[1594px] h-[1065px] relative bg-white">
-  <div className="w-[1594px] h-[1064.50px] pt-16 left-0 top-0 absolute bg-white inline-flex flex-col justify-start items-start">
-    <div className="self-stretch h-28 pl-10 bg-neutral-100 shadow-[0px_1px_2px_-1px_rgba(0,0,0,0.10)] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.10)] inline-flex justify-start items-center">
-      <div className="w-64 h-12 relative">
-        <div className="left-0 top-[1px] absolute justify-start text-teal-500 text-3xl font-normal font-['Roboto'] leading-[48px]">Gestão de Viagens</div>
-      </div>
-    </div>
-    <div className="self-stretch h-[882.50px] px-10 pt-10 flex flex-col justify-start items-start gap-6">
-      <div className="self-stretch h-20 flex flex-col justify-start items-start gap-6">
-        <div className="self-stretch h-9 relative">
-          <div className="w-[749px] h-9 left-0 top-0 absolute rounded inline-flex flex-col justify-start items-start">
-            <div className="self-stretch h-9 px-3 bg-white rounded outline outline-1 outline-offset-[-1px] outline-gray-400 inline-flex justify-between items-center">
-              <div className="w-52 h-5 flex justify-start items-center gap-2 overflow-hidden">
-                <div className="justify-start text-neutral-950 text-sm font-normal font-['Arial'] leading-tight">1086 - POSTO CCPR ALVINOPOLIS</div>
-              </div>
-              <div className="w-4 h-4 relative opacity-50 overflow-hidden">
-                <div className="w-2 h-1 left-[4px] top-[6px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-              </div>
-            </div>
-          </div>
-          <div className="w-[749px] h-9 left-[765px] top-0 absolute rounded inline-flex flex-col justify-start items-start">
-            <div className="self-stretch h-9 px-3 bg-white rounded outline outline-1 outline-offset-[-1px] outline-gray-400 inline-flex justify-between items-center">
-              <div className="w-20 h-5 flex justify-start items-center gap-2 overflow-hidden">
-                <div className="justify-start text-neutral-950 text-sm font-normal font-['Arial'] leading-tight">Março/2025</div>
-              </div>
-              <div className="w-4 h-4 relative opacity-50 overflow-hidden">
-                <div className="w-2 h-1 left-[4px] top-[6px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="self-stretch h-6 inline-flex justify-start items-center gap-6">
-          <div className="w-12 h-6 flex justify-start items-center gap-2">
-            <div className="justify-start text-neutral-950 text-base font-normal font-['Arial'] leading-normal">Status:</div>
-          </div>
-          <div className="w-14 h-5 flex justify-start items-center gap-2">
-            <div className="w-4 h-4 p-px bg-teal-500 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-teal-500 inline-flex flex-col justify-start items-start">
-              <div className="self-stretch h-3.5 inline-flex justify-center items-center">
-                <div className="w-3.5 h-3.5 relative overflow-hidden">
-                  <div className="w-2.5 h-1.5 left-[2.33px] top-[3.50px] absolute outline outline-1 outline-offset-[-0.58px] outline-white" />
-                </div>
-              </div>
-            </div>
-            <div className="flex-1 h-5 flex justify-start items-center gap-2">
-              <div className="justify-start text-neutral-950 text-sm font-normal font-['Arial'] leading-tight">Novo</div>
-            </div>
-          </div>
-          <div className="w-20 h-5 flex justify-start items-center gap-2">
-            <div className="w-4 h-4 p-px bg-teal-500 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-teal-500 inline-flex flex-col justify-start items-start">
-              <div className="self-stretch h-3.5 inline-flex justify-center items-center">
-                <div className="w-3.5 h-3.5 relative overflow-hidden">
-                  <div className="w-2.5 h-1.5 left-[2.33px] top-[3.50px] absolute outline outline-1 outline-offset-[-0.58px] outline-white" />
-                </div>
-              </div>
-            </div>
-            <div className="flex-1 h-5 flex justify-start items-center gap-2">
-              <div className="justify-start text-neutral-950 text-sm font-normal font-['Arial'] leading-tight">Recebida</div>
-            </div>
-          </div>
-          <div className="w-20 h-5 flex justify-start items-center gap-2">
-            <div className="w-4 h-4 p-px bg-teal-500 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-teal-500 inline-flex flex-col justify-start items-start">
-              <div className="self-stretch h-3.5 inline-flex justify-center items-center">
-                <div className="w-3.5 h-3.5 relative overflow-hidden">
-                  <div className="w-2.5 h-1.5 left-[2.33px] top-[3.50px] absolute outline outline-1 outline-offset-[-0.58px] outline-white" />
-                </div>
-              </div>
-            </div>
-            <div className="flex-1 h-5 flex justify-start items-center gap-2">
-              <div className="justify-start text-neutral-950 text-sm font-normal font-['Arial'] leading-tight">Validada</div>
-            </div>
-          </div>
-          <div className="w-20 h-5 flex justify-start items-center gap-2">
-            <div className="w-4 h-4 p-px bg-teal-500 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-teal-500 inline-flex flex-col justify-start items-start">
-              <div className="self-stretch h-3.5 inline-flex justify-center items-center">
-                <div className="w-3.5 h-3.5 relative overflow-hidden">
-                  <div className="w-2.5 h-1.5 left-[2.33px] top-[3.50px] absolute outline outline-1 outline-offset-[-0.58px] outline-white" />
-                </div>
-              </div>
-            </div>
-            <div className="flex-1 h-5 flex justify-start items-center gap-2">
-              <div className="justify-start text-neutral-950 text-sm font-normal font-['Arial'] leading-tight">Fechada</div>
-            </div>
-          </div>
-          <div className="w-20 h-5 flex justify-start items-center gap-2">
-            <div className="w-4 h-4 p-px bg-teal-500 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-teal-500 inline-flex flex-col justify-start items-start">
-              <div className="self-stretch h-3.5 inline-flex justify-center items-center">
-                <div className="w-3.5 h-3.5 relative overflow-hidden">
-                  <div className="w-2.5 h-1.5 left-[2.33px] top-[3.50px] absolute outline outline-1 outline-offset-[-0.58px] outline-white" />
-                </div>
-              </div>
-            </div>
-            <div className="flex-1 h-5 flex justify-start items-center gap-2">
-              <div className="justify-start text-neutral-950 text-sm font-normal font-['Arial'] leading-tight">Removida</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="self-stretch h-11 inline-flex justify-end items-start gap-3">
-        <div className="w-44 h-11 relative opacity-50 bg-gray-500 rounded">
-          <div className="w-4 h-4 left-[12.64px] top-[15px] absolute overflow-hidden">
-            <div className="w-3 h-3 left-[2px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-            <div className="w-[3.33px] h-[3.33px] left-[2px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-          </div>
-          <div className="left-[44.64px] top-[13px] absolute justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight">Recuperar Viagem</div>
-        </div>
-        <div className="w-44 h-11 relative opacity-50 bg-gray-500 rounded">
-          <div className="w-4 h-4 left-[19.64px] top-[15px] absolute overflow-hidden">
-            <div className="w-0 h-2 left-[8px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-            <div className="w-3 h-1 left-[2px] top-[10px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-            <div className="w-1.5 h-[3.33px] left-[4.67px] top-[6.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-          </div>
-          <div className="left-[51.64px] top-[13px] absolute justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight">Receber Viagem</div>
-        </div>
-        <div className="w-44 h-11 relative opacity-50 bg-gray-500 rounded">
-          <div className="w-4 h-4 left-[17.31px] top-[15px] absolute overflow-hidden">
-            <div className="w-0 h-1 left-[6.67px] top-[7.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-            <div className="w-0 h-1 left-[9.33px] top-[7.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-            <div className="w-2.5 h-2.5 left-[3.33px] top-[4px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-            <div className="w-3 h-0 left-[2px] top-[4px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-            <div className="w-1.5 h-[2.67px] left-[5.33px] top-[1.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-          </div>
-          <div className="left-[49.31px] top-[13px] absolute justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight">Remover Viagem</div>
-        </div>
-        <div className="w-40 h-11 relative bg-teal-500 rounded">
-          <div className="w-4 h-4 left-[15.16px] top-[15px] absolute overflow-hidden">
-            <div className="w-2.5 h-0 left-[3.33px] top-[8px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-            <div className="w-0 h-2.5 left-[8px] top-[3.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-white" />
-          </div>
-          <div className="left-[47.16px] top-[13px] absolute justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight">Viagem Manual</div>
-        </div>
-      </div>
-      <div className="self-stretch h-[572.50px] p-px bg-white outline outline-1 outline-offset-[-1px] outline-stone-300 flex flex-col justify-start items-start overflow-hidden">
-        <div className="self-stretch h-[570.50px] relative overflow-hidden">
-          <div className="w-[1512px] h-10 left-0 top-0 absolute">
-            <div className="w-[1512px] h-10 left-0 top-0 absolute border-b border-stone-300">
-              <div className="w-28 h-10 left-0 top-0 absolute border-r border-stone-300">
-                <div className="left-[24.70px] top-[9.75px] absolute text-center justify-start text-neutral-950 text-sm font-bold font-['Roboto'] leading-tight">Selecionar</div>
-              </div>
-              <div className="w-40 h-10 left-[116.73px] top-0 absolute border-r border-stone-300">
-                <div className="left-[59.47px] top-[9.75px] absolute text-center justify-start text-neutral-950 text-sm font-bold font-['Roboto'] leading-tight">Status</div>
-              </div>
-              <div className="w-36 h-10 left-[276.48px] top-0 absolute border-r border-stone-300">
-                <div className="left-[49.70px] top-[9.75px] absolute text-center justify-start text-neutral-950 text-sm font-bold font-['Roboto'] leading-tight">Viagem</div>
-              </div>
-              <div className="w-96 h-10 left-[423.45px] top-0 absolute border-r border-stone-300">
-                <div className="left-[169.64px] top-[9.75px] absolute text-center justify-start text-neutral-950 text-sm font-bold font-['Roboto'] leading-tight">Motorista</div>
-              </div>
-              <div className="w-64 h-10 left-[823.73px] top-0 absolute border-r border-stone-300">
-                <div className="left-[75.33px] top-[9.75px] absolute text-center justify-start text-neutral-950 text-sm font-bold font-['Roboto'] leading-tight">Transportadora</div>
-              </div>
-              <div className="w-40 h-10 left-[1073.09px] top-0 absolute border-r border-stone-300">
-                <div className="left-[32.58px] top-[9.75px] absolute text-center justify-start text-neutral-950 text-sm font-bold font-['Roboto'] leading-tight">Placa Caminhão</div>
-              </div>
-              <div className="w-40 h-10 left-[1240.41px] top-0 absolute border-r border-stone-300">
-                <div className="left-[31.27px] top-[9.75px] absolute text-center justify-start text-neutral-950 text-sm font-bold font-['Roboto'] leading-tight">Placa Reboque</div>
-              </div>
-              <div className="w-28 h-10 left-[1397.31px] top-0 absolute">
-                <div className="left-[43.03px] top-[9.75px] absolute text-center justify-start text-neutral-950 text-sm font-bold font-['Roboto'] leading-tight">Rota</div>
-              </div>
-            </div>
-          </div>
-          <div className="w-[1512px] h-[530px] left-0 top-[40px] absolute">
-            <div className="w-[1512px] h-14 left-0 top-0 absolute border-b border-stone-300">
-              <div className="w-28 h-14 left-0 top-0 absolute border-r border-stone-300">
-                <div className="w-4 h-4 left-[54.11px] top-[18.50px] absolute bg-zinc-100 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] border border-black/10" />
-              </div>
-              <div className="w-40 h-12 left-[117.23px] top-[0.50px] absolute border-r border-stone-300 inline-flex justify-center items-center">
-                <div className="w-24 h-7 px-2 py-0.5 bg-lime-400 rounded-2xl outline outline-1 outline-offset-[-1px] outline-black/0 flex justify-center items-center gap-1 overflow-hidden">
-                  <div className="text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight">NOVO</div>
-                </div>
-              </div>
-              <div className="w-36 h-14 left-[276.48px] top-0 absolute border-r border-stone-300">
-                <div className="left-[26.52px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">200233604400</div>
-              </div>
-              <div className="w-96 h-14 left-[423.45px] top-0 absolute border-r border-stone-300">
-                <div className="w-96 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2.5 h-1 left-[3.33px] top-[10px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[5.33px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-56 h-5 relative">
-                    <div className="w-56 left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">123.456.789-10 - João Silva Santos</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-64 h-14 left-[823.73px] top-0 absolute border-r border-stone-300">
-                <div className="w-60 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2 h-2.5 left-[1.33px] top-[2.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1 h-0 left-[6px] top-[12px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[9.33px] top-[5.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[10px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[3.33px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-36 h-5 relative">
-                    <div className="left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">077 - Transportadora B</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-40 h-14 left-[1073.09px] top-0 absolute border-r border-stone-300">
-                <div className="left-[52.58px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">ABC-3E82</div>
-              </div>
-              <div className="w-40 h-14 left-[1240.41px] top-0 absolute border-r border-stone-300">
-                <div className="left-[48.92px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">XYZ-5678</div>
-              </div>
-              <div className="w-28 h-14 left-[1397.31px] top-0 absolute">
-                <div className="w-24 h-5 pr-[0.02px] left-[8.50px] top-[16.50px] absolute inline-flex justify-center items-center gap-2">
-                  <div className="w-10 h-5 relative">
-                    <div className="left-[1px] top-0 absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">2231R</div>
-                  </div>
-                  <div className="w-5 h-5 flex justify-center items-center">
-                    <div className="w-5 h-5 relative overflow-hidden">
-                      <div className="w-3.5 h-4 left-[2.50px] top-[0.83px] absolute bg-green-500" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-[1512px] h-14 left-0 top-[53px] absolute border-b border-stone-300">
-              <div className="w-28 h-14 left-0 top-0 absolute border-r border-stone-300">
-                <div className="w-4 h-4 left-[54.11px] top-[18.50px] absolute bg-zinc-100 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] border border-black/10" />
-              </div>
-              <div className="w-40 h-12 left-[117.23px] top-[0.50px] absolute border-r border-stone-300 inline-flex justify-center items-center">
-                <div className="w-24 h-7 px-2 py-0.5 bg-lime-400 rounded-2xl outline outline-1 outline-offset-[-1px] outline-black/0 flex justify-center items-center gap-1 overflow-hidden">
-                  <div className="text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight">NOVO</div>
-                </div>
-              </div>
-              <div className="w-36 h-14 left-[276.48px] top-0 absolute border-r border-stone-300">
-                <div className="left-[26.52px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">200233604401</div>
-              </div>
-              <div className="w-96 h-14 left-[423.45px] top-0 absolute border-r border-stone-300">
-                <div className="w-96 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2.5 h-1 left-[3.33px] top-[10px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[5.33px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-60 h-5 relative">
-                    <div className="w-60 left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">987.654.321-00 - Maria Oliveira Costa</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-64 h-14 left-[823.73px] top-0 absolute border-r border-stone-300">
-                <div className="w-60 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2 h-2.5 left-[1.33px] top-[2.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1 h-0 left-[6px] top-[12px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[9.33px] top-[5.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[10px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[3.33px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-36 h-5 relative">
-                    <div className="left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">078 - Transportadora C</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-40 h-14 left-[1073.09px] top-0 absolute border-r border-stone-300">
-                <div className="left-[53.36px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">DEF-4F93</div>
-              </div>
-              <div className="w-40 h-14 left-[1240.41px] top-0 absolute border-r border-stone-300">
-                <div className="left-[46.23px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">WXY-9876</div>
-              </div>
-              <div className="w-28 h-14 left-[1397.31px] top-0 absolute">
-                <div className="w-24 h-5 pr-[0.02px] left-[8.50px] top-[16.50px] absolute inline-flex justify-center items-center gap-2">
-                  <div className="w-10 h-5 relative">
-                    <div className="left-[1px] top-0 absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">2232R</div>
-                  </div>
-                  <div className="w-5 h-5 flex justify-center items-center">
-                    <div className="w-5 h-5 relative overflow-hidden">
-                      <div className="w-3.5 h-4 left-[2.50px] top-[0.83px] absolute bg-red-500" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-[1512px] h-14 left-0 top-[106px] absolute border-b border-stone-300">
-              <div className="w-28 h-14 left-0 top-0 absolute border-r border-stone-300">
-                <div className="w-4 h-4 left-[54.11px] top-[18.50px] absolute bg-zinc-100 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] border border-black/10" />
-              </div>
-              <div className="w-40 h-12 left-[117.23px] top-[0.50px] absolute border-r border-stone-300 inline-flex justify-center items-center">
-                <div className="w-24 h-7 px-2 py-0.5 bg-lime-400 rounded-2xl outline outline-1 outline-offset-[-1px] outline-black/0 flex justify-center items-center gap-1 overflow-hidden">
-                  <div className="text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight">NOVO</div>
-                </div>
-              </div>
-              <div className="w-36 h-14 left-[276.48px] top-0 absolute border-r border-stone-300">
-                <div className="left-[26.52px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">200233604402</div>
-              </div>
-              <div className="w-96 h-14 left-[423.45px] top-0 absolute border-r border-stone-300">
-                <div className="w-96 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2.5 h-1 left-[3.33px] top-[10px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[5.33px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-60 h-5 relative">
-                    <div className="w-60 left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">456.789.123-45 - Carlos Eduardo Lima</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-64 h-14 left-[823.73px] top-0 absolute border-r border-stone-300">
-                <div className="w-60 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2 h-2.5 left-[1.33px] top-[2.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1 h-0 left-[6px] top-[12px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[9.33px] top-[5.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[10px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[3.33px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-36 h-5 relative">
-                    <div className="left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">079 - Transportadora D</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-40 h-14 left-[1073.09px] top-0 absolute border-r border-stone-300">
-                <div className="left-[53.75px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">GHI-5G04</div>
-              </div>
-              <div className="w-40 h-14 left-[1240.41px] top-0 absolute border-r border-stone-300">
-                <div className="left-[48.92px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">VUT-5432</div>
-              </div>
-              <div className="w-28 h-14 left-[1397.31px] top-0 absolute">
-                <div className="w-24 h-5 pr-[0.02px] left-[8.50px] top-[16.50px] absolute inline-flex justify-center items-center gap-2">
-                  <div className="w-10 h-5 relative">
-                    <div className="left-[1px] top-0 absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">2233R</div>
-                  </div>
-                  <div className="w-5 h-5 flex justify-center items-center">
-                    <div className="w-5 h-5 relative overflow-hidden">
-                      <div className="w-3.5 h-4 left-[2.50px] top-[0.83px] absolute bg-green-500" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-[1512px] h-14 left-0 top-[159px] absolute border-b border-stone-300">
-              <div className="w-28 h-14 left-0 top-0 absolute border-r border-stone-300">
-                <div className="w-4 h-4 left-[54.11px] top-[18.50px] absolute bg-zinc-100 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] border border-black/10" />
-              </div>
-              <div className="w-40 h-12 left-[117.23px] top-[0.50px] absolute border-r border-stone-300 inline-flex justify-center items-center">
-                <div className="w-24 h-7 px-2 py-0.5 bg-lime-400 rounded-2xl outline outline-1 outline-offset-[-1px] outline-black/0 flex justify-center items-center gap-1 overflow-hidden">
-                  <div className="text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight">NOVO</div>
-                </div>
-              </div>
-              <div className="w-36 h-14 left-[276.48px] top-0 absolute border-r border-stone-300">
-                <div className="left-[26.52px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">200233604403</div>
-              </div>
-              <div className="w-96 h-14 left-[423.45px] top-0 absolute border-r border-stone-300">
-                <div className="w-96 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2.5 h-1 left-[3.33px] top-[10px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[5.33px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-56 h-5 relative">
-                    <div className="w-56 left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">789.123.456-78 - Ana Paula Ferreira</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-64 h-14 left-[823.73px] top-0 absolute border-r border-stone-300">
-                <div className="w-60 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2 h-2.5 left-[1.33px] top-[2.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1 h-0 left-[6px] top-[12px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[9.33px] top-[5.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[10px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[3.33px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-36 h-5 relative">
-                    <div className="left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">080 - Transportadora E</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-40 h-14 left-[1073.09px] top-0 absolute border-r border-stone-300">
-                <div className="left-[52.52px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">JKL-6H15</div>
-              </div>
-              <div className="w-40 h-14 left-[1240.41px] top-0 absolute border-r border-stone-300">
-                <div className="left-[47.38px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">SRQ-3210</div>
-              </div>
-              <div className="w-28 h-14 left-[1397.31px] top-0 absolute">
-                <div className="w-24 h-5 pr-[0.02px] left-[8.50px] top-[16.50px] absolute inline-flex justify-center items-center gap-2">
-                  <div className="w-10 h-5 relative">
-                    <div className="left-[1px] top-0 absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">2234R</div>
-                  </div>
-                  <div className="w-5 h-5 flex justify-center items-center">
-                    <div className="w-5 h-5 relative overflow-hidden">
-                      <div className="w-3.5 h-4 left-[2.50px] top-[0.83px] absolute bg-green-500" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-[1512px] h-14 left-0 top-[212px] absolute border-b border-stone-300">
-              <div className="w-28 h-14 left-0 top-0 absolute border-r border-stone-300">
-                <div className="w-4 h-4 left-[54.11px] top-[18.50px] absolute bg-zinc-100 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] border border-black/10" />
-              </div>
-              <div className="w-40 h-12 left-[117.23px] top-[0.50px] absolute border-r border-stone-300 inline-flex justify-center items-center">
-                <div className="w-24 h-7 px-2 py-0.5 bg-lime-400 rounded-2xl outline outline-1 outline-offset-[-1px] outline-black/0 flex justify-center items-center gap-1 overflow-hidden">
-                  <div className="text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight">NOVO</div>
-                </div>
-              </div>
-              <div className="w-36 h-14 left-[276.48px] top-0 absolute border-r border-stone-300">
-                <div className="left-[26.52px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">200233604404</div>
-              </div>
-              <div className="w-96 h-14 left-[423.45px] top-0 absolute border-r border-stone-300">
-                <div className="w-96 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2.5 h-1 left-[3.33px] top-[10px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[5.33px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-60 h-5 relative">
-                    <div className="w-60 left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">321.654.987-32 - Roberto Alves Souza</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-64 h-14 left-[823.73px] top-0 absolute border-r border-stone-300">
-                <div className="w-60 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2 h-2.5 left-[1.33px] top-[2.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1 h-0 left-[6px] top-[12px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[9.33px] top-[5.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[10px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[3.33px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-36 h-5 relative">
-                    <div className="left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">081 - Transportadora F</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-40 h-14 left-[1073.09px] top-0 absolute border-r border-stone-300">
-                <div className="left-[51.36px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">MNO-7I26</div>
-              </div>
-              <div className="w-40 h-14 left-[1240.41px] top-0 absolute border-r border-stone-300">
-                <div className="left-[46.38px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">PON-1098</div>
-              </div>
-              <div className="w-28 h-14 left-[1397.31px] top-0 absolute">
-                <div className="w-24 h-5 pr-[0.02px] left-[8.50px] top-[16.50px] absolute inline-flex justify-center items-center gap-2">
-                  <div className="w-10 h-5 relative">
-                    <div className="left-[1px] top-0 absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">2235R</div>
-                  </div>
-                  <div className="w-5 h-5 flex justify-center items-center">
-                    <div className="w-5 h-5 relative overflow-hidden">
-                      <div className="w-3.5 h-4 left-[2.50px] top-[0.83px] absolute bg-red-500" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-[1512px] h-14 left-0 top-[265px] absolute border-b border-stone-300">
-              <div className="w-28 h-14 left-0 top-0 absolute border-r border-stone-300">
-                <div className="w-4 h-4 left-[54.11px] top-[18.50px] absolute bg-zinc-100 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] border border-black/10" />
-              </div>
-              <div className="w-40 h-12 left-[117.23px] top-[0.50px] absolute border-r border-stone-300 inline-flex justify-center items-center">
-                <div className="w-24 h-7 px-2 py-0.5 bg-green-500 rounded-2xl outline outline-1 outline-offset-[-1px] outline-black/0 flex justify-center items-center gap-1 overflow-hidden">
-                  <div className="text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight">RECEBIDA</div>
-                </div>
-              </div>
-              <div className="w-36 h-14 left-[276.48px] top-0 absolute border-r border-stone-300">
-                <div className="left-[26.52px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">200233604405</div>
-              </div>
-              <div className="w-96 h-14 left-[423.45px] top-0 absolute border-r border-stone-300">
-                <div className="w-96 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2.5 h-1 left-[3.33px] top-[10px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[5.33px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-64 h-5 relative">
-                    <div className="w-64 left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">147.258.369-85 - Paula Cristina Mendes</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-64 h-14 left-[823.73px] top-0 absolute border-r border-stone-300">
-                <div className="w-60 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2 h-2.5 left-[1.33px] top-[2.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1 h-0 left-[6px] top-[12px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[9.33px] top-[5.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[10px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[3.33px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-36 h-5 relative">
-                    <div className="left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">082 - Transportadora G</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-40 h-14 left-[1073.09px] top-0 absolute border-r border-stone-300">
-                <div className="left-[52.97px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">PQR-8J37</div>
-              </div>
-              <div className="w-40 h-14 left-[1240.41px] top-0 absolute border-r border-stone-300">
-                <div className="left-[46.16px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">MLK-7654</div>
-              </div>
-              <div className="w-28 h-14 left-[1397.31px] top-0 absolute">
-                <div className="w-24 h-5 pr-[0.02px] left-[8.50px] top-[16.50px] absolute inline-flex justify-center items-center gap-2">
-                  <div className="w-10 h-5 relative">
-                    <div className="left-[1px] top-0 absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">2236R</div>
-                  </div>
-                  <div className="w-5 h-5 flex justify-center items-center">
-                    <div className="w-5 h-5 relative overflow-hidden">
-                      <div className="w-3.5 h-4 left-[2.50px] top-[0.83px] absolute bg-green-500" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-[1512px] h-14 left-0 top-[318px] absolute border-b border-stone-300">
-              <div className="w-28 h-14 left-0 top-0 absolute border-r border-stone-300">
-                <div className="w-4 h-4 left-[54.11px] top-[18.50px] absolute bg-zinc-100 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] border border-black/10" />
-              </div>
-              <div className="w-40 h-12 left-[117.23px] top-[0.50px] absolute border-r border-stone-300 inline-flex justify-center items-center">
-                <div className="w-24 h-7 px-2 py-0.5 bg-green-500 rounded-2xl outline outline-1 outline-offset-[-1px] outline-black/0 flex justify-center items-center gap-1 overflow-hidden">
-                  <div className="text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight">RECEBIDA</div>
-                </div>
-              </div>
-              <div className="w-36 h-14 left-[276.48px] top-0 absolute border-r border-stone-300">
-                <div className="left-[26.52px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">200233604406</div>
-              </div>
-              <div className="w-96 h-14 left-[423.45px] top-0 absolute border-r border-stone-300">
-                <div className="w-96 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2.5 h-1 left-[3.33px] top-[10px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[5.33px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-60 h-5 relative">
-                    <div className="w-60 left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">963.741.852-74 - Fernando José Silva</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-64 h-14 left-[823.73px] top-0 absolute border-r border-stone-300">
-                <div className="w-60 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2 h-2.5 left-[1.33px] top-[2.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1 h-0 left-[6px] top-[12px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[9.33px] top-[5.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[10px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[3.33px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-36 h-5 relative">
-                    <div className="left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">083 - Transportadora H</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-40 h-14 left-[1073.09px] top-0 absolute border-r border-stone-300">
-                <div className="left-[52.97px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">STU-9K48</div>
-              </div>
-              <div className="w-40 h-14 left-[1240.41px] top-0 absolute border-r border-stone-300">
-                <div className="left-[50.05px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">JIH-4321</div>
-              </div>
-              <div className="w-28 h-14 left-[1397.31px] top-0 absolute">
-                <div className="w-24 h-5 pr-[0.02px] left-[8.50px] top-[16.50px] absolute inline-flex justify-center items-center gap-2">
-                  <div className="w-10 h-5 relative">
-                    <div className="left-[1px] top-0 absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">2237R</div>
-                  </div>
-                  <div className="w-5 h-5 flex justify-center items-center">
-                    <div className="w-5 h-5 relative overflow-hidden">
-                      <div className="w-3.5 h-4 left-[2.50px] top-[0.83px] absolute bg-red-500" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-[1512px] h-14 left-0 top-[371px] absolute border-b border-stone-300">
-              <div className="w-28 h-14 left-0 top-0 absolute border-r border-stone-300">
-                <div className="w-4 h-4 left-[54.11px] top-[18.50px] absolute bg-zinc-100 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] border border-black/10" />
-              </div>
-              <div className="w-40 h-12 left-[117.23px] top-[0.50px] absolute border-r border-stone-300 inline-flex justify-center items-center">
-                <div className="w-24 h-7 px-2 py-0.5 bg-green-500 rounded-2xl outline outline-1 outline-offset-[-1px] outline-black/0 flex justify-center items-center gap-1 overflow-hidden">
-                  <div className="text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight">RECEBIDA</div>
-                </div>
-              </div>
-              <div className="w-36 h-14 left-[276.48px] top-0 absolute border-r border-stone-300">
-                <div className="left-[26.52px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">200233604407</div>
-              </div>
-              <div className="w-96 h-14 left-[423.45px] top-0 absolute border-r border-stone-300">
-                <div className="w-96 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2.5 h-1 left-[3.33px] top-[10px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[5.33px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-64 h-5 relative">
-                    <div className="w-64 left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">852.963.741-96 - Luciana Santos Oliveira</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-64 h-14 left-[823.73px] top-0 absolute border-r border-stone-300">
-                <div className="w-60 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2 h-2.5 left-[1.33px] top-[2.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1 h-0 left-[6px] top-[12px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[9.33px] top-[5.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[10px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[3.33px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-36 h-5 relative">
-                    <div className="left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">084 - Transportadora I</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-40 h-14 left-[1073.09px] top-0 absolute border-r border-stone-300">
-                <div className="left-[51.80px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">VWX-0L59</div>
-              </div>
-              <div className="w-40 h-14 left-[1240.41px] top-0 absolute border-r border-stone-300">
-                <div className="left-[48.16px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">GFE-8765</div>
-              </div>
-              <div className="w-28 h-14 left-[1397.31px] top-0 absolute">
-                <div className="w-24 h-5 pr-[0.02px] left-[8.50px] top-[16.50px] absolute inline-flex justify-center items-center gap-2">
-                  <div className="w-10 h-5 relative">
-                    <div className="left-[1px] top-0 absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">2238R</div>
-                  </div>
-                  <div className="w-5 h-5 flex justify-center items-center">
-                    <div className="w-5 h-5 relative overflow-hidden">
-                      <div className="w-3.5 h-4 left-[2.50px] top-[0.83px] absolute bg-green-500" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-[1512px] h-14 left-0 top-[424px] absolute border-b border-stone-300">
-              <div className="w-28 h-14 left-0 top-0 absolute border-r border-stone-300">
-                <div className="w-4 h-4 left-[54.11px] top-[18.50px] absolute bg-zinc-100 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] border border-black/10" />
-              </div>
-              <div className="w-40 h-12 left-[117.23px] top-[0.50px] absolute border-r border-stone-300 inline-flex justify-center items-center">
-                <div className="w-24 h-7 px-2 py-0.5 bg-teal-500 rounded-2xl outline outline-1 outline-offset-[-1px] outline-black/0 flex justify-center items-center gap-1 overflow-hidden">
-                  <div className="text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight">VALIDADA</div>
-                </div>
-              </div>
-              <div className="w-36 h-14 left-[276.48px] top-0 absolute border-r border-stone-300">
-                <div className="left-[26.52px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">200233604408</div>
-              </div>
-              <div className="w-96 h-14 left-[423.45px] top-0 absolute border-r border-stone-300">
-                <div className="w-96 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2.5 h-1 left-[3.33px] top-[10px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[5.33px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-60 h-5 relative">
-                    <div className="w-60 left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">741.852.963-41 - Marcos Antonio Costa</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-64 h-14 left-[823.73px] top-0 absolute border-r border-stone-300">
-                <div className="w-60 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2 h-2.5 left-[1.33px] top-[2.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1 h-0 left-[6px] top-[12px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[9.33px] top-[5.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[10px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[3.33px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-36 h-5 relative">
-                    <div className="left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">085 - Transportadora J</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-40 h-14 left-[1073.09px] top-0 absolute border-r border-stone-300">
-                <div className="left-[50.19px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">YZA-1M60</div>
-              </div>
-              <div className="w-40 h-14 left-[1240.41px] top-0 absolute border-r border-stone-300">
-                <div className="left-[47.77px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">DCB-2109</div>
-              </div>
-              <div className="w-28 h-14 left-[1397.31px] top-0 absolute">
-                <div className="w-24 h-5 pr-[0.02px] left-[8.50px] top-[16.50px] absolute inline-flex justify-center items-center gap-2">
-                  <div className="w-10 h-5 relative">
-                    <div className="left-[1px] top-0 absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">2239R</div>
-                  </div>
-                  <div className="w-5 h-5 flex justify-center items-center">
-                    <div className="w-5 h-5 relative overflow-hidden">
-                      <div className="w-3.5 h-4 left-[2.50px] top-[0.83px] absolute bg-green-500" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-[1512px] h-14 left-0 top-[477px] absolute border-b border-stone-300">
-              <div className="w-28 h-14 left-0 top-0 absolute border-r border-stone-300">
-                <div className="w-4 h-4 left-[54.11px] top-[18.50px] absolute bg-zinc-100 rounded shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] border border-black/10" />
-              </div>
-              <div className="w-40 h-12 left-[117.23px] top-[0.50px] absolute border-r border-stone-300 inline-flex justify-center items-center">
-                <div className="w-24 h-7 px-2 py-0.5 bg-teal-500 rounded-2xl outline outline-1 outline-offset-[-1px] outline-black/0 flex justify-center items-center gap-1 overflow-hidden">
-                  <div className="text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight">VALIDADA</div>
-                </div>
-              </div>
-              <div className="w-36 h-14 left-[276.48px] top-0 absolute border-r border-stone-300">
-                <div className="left-[26.52px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">200233604409</div>
-              </div>
-              <div className="w-96 h-14 left-[423.45px] top-0 absolute border-r border-stone-300">
-                <div className="w-96 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2.5 h-1 left-[3.33px] top-[10px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[5.33px] top-[2px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-60 h-5 relative">
-                    <div className="w-60 left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">159.753.486-02 - Sandra Regina Lima</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-64 h-14 left-[823.73px] top-0 absolute border-r border-stone-300">
-                <div className="w-60 h-5 left-[8.50px] top-[16.50px] absolute inline-flex justify-start items-center gap-2">
-                  <div className="w-4 h-4 relative overflow-hidden">
-                    <div className="w-2 h-2.5 left-[1.33px] top-[2.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1 h-0 left-[6px] top-[12px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-1.5 h-1.5 left-[9.33px] top-[5.33px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[10px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                    <div className="w-[2.67px] h-[2.67px] left-[3.33px] top-[10.67px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-                  </div>
-                  <div className="w-36 h-5 relative">
-                    <div className="left-0 top-0 absolute justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">086 - Transportadora K</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-40 h-14 left-[1073.09px] top-0 absolute border-r border-stone-300">
-                <div className="left-[51.80px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">BCD-2N71</div>
-              </div>
-              <div className="w-40 h-14 left-[1240.41px] top-0 absolute border-r border-stone-300">
-                <div className="left-[48.58px] top-[16.50px] absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">AZY-6543</div>
-              </div>
-              <div className="w-28 h-14 left-[1397.31px] top-0 absolute">
-                <div className="w-24 h-5 pr-[0.02px] left-[8.50px] top-[16.50px] absolute inline-flex justify-center items-center gap-2">
-                  <div className="w-10 h-5 relative">
-                    <div className="left-[1px] top-0 absolute text-center justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">2240R</div>
-                  </div>
-                  <div className="w-5 h-5 flex justify-center items-center">
-                    <div className="w-5 h-5 relative overflow-hidden">
-                      <div className="w-3.5 h-4 left-[2.50px] top-[0.83px] absolute bg-red-500" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="self-stretch h-9 inline-flex justify-end items-center gap-4">
-        <div className="w-44 h-9 flex justify-start items-center gap-2">
-          <div className="flex-1 h-5 relative">
-            <div className="left-0 top-0 absolute justify-start text-gray-600 text-sm font-normal font-['Roboto'] leading-tight">Itens por página:</div>
-          </div>
-          <div className="w-16 h-9 px-3 bg-zinc-100 rounded-lg outline outline-1 outline-offset-[-1px] outline-black/0 flex justify-between items-center">
-            <div className="w-3.5 h-5 flex justify-start items-center gap-2 overflow-hidden">
-              <div className="justify-start text-neutral-950 text-sm font-normal font-['Roboto'] leading-tight">10</div>
-            </div>
-            <div className="w-4 h-4 relative opacity-50 overflow-hidden">
-              <div className="w-2 h-1 left-[4px] top-[6px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-gray-500" />
-            </div>
-          </div>
-        </div>
-        <div className="w-20 h-5 relative">
-          <div className="w-20 left-0 top-0 absolute justify-start text-gray-600 text-sm font-normal font-['Roboto'] leading-tight">Página 1 de 2</div>
-        </div>
-        <div className="w-16 h-8 flex justify-start items-center gap-1">
-          <div className="w-8 h-8 opacity-50 bg-white rounded-lg outline outline-1 outline-offset-[-1px] outline-black/10 flex justify-center items-center">
-            <div className="w-4 h-4 relative overflow-hidden">
-              <div className="w-1 h-2 left-[6px] top-[4px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-neutral-950" />
-            </div>
-          </div>
-          <div className="flex-1 h-8 bg-white rounded-lg outline outline-1 outline-offset-[-1px] outline-black/10 flex justify-center items-center">
-            <div className="w-4 h-4 relative overflow-hidden">
-              <div className="w-1 h-2 left-[6px] top-[4px] absolute outline outline-[1.33px] outline-offset-[-0.67px] outline-neutral-950" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div className="w-[1594px] h-16 px-6 left-0 top-0 absolute bg-teal-500 inline-flex justify-between items-center">
-    <div className="w-36 h-8 flex justify-start items-center gap-4">
-      <div className="w-6 h-6 relative overflow-hidden">
-        <div className="w-4 h-0 left-[4px] top-[12px] absolute outline outline-2 outline-offset-[-1px] outline-white" />
-        <div className="w-4 h-0 left-[4px] top-[18px] absolute outline outline-2 outline-offset-[-1px] outline-white" />
-        <div className="w-4 h-0 left-[4px] top-[6px] absolute outline outline-2 outline-offset-[-1px] outline-white" />
-      </div>
-      <img className="flex-1 h-8 relative" src="https://placehold.co/110x32" />
-    </div>
-    <div className="w-40 h-6 flex justify-start items-center gap-4">
-      <div className="flex-1 h-6 relative">
-        <div className="left-0 top-0 absolute justify-start text-white text-base font-medium font-['Roboto'] leading-normal">Amaral Amarantes</div>
-      </div>
-      <div className="w-6 h-6 relative overflow-hidden">
-        <div className="w-[5px] h-2.5 left-[16px] top-[7px] absolute outline outline-2 outline-offset-[-1px] outline-white" />
-        <div className="w-3 h-0 left-[9px] top-[12px] absolute outline outline-2 outline-offset-[-1px] outline-white" />
-        <div className="w-1.5 h-4 left-[3px] top-[3px] absolute outline outline-2 outline-offset-[-1px] outline-white" />
-      </div>
-    </div>
-  </div>
-</div>
+import React from "react";
+import styled from "styled-components";
+
+const StyledValidarviagemspan = styled.span`
+  color: #04AF9E;
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 48px;
+  word-wrap: break-word;
+`;
+
+const StyledVector = styled.div`
+  width: 4.67px;
+  height: 9.33px;
+  left: 3.33px;
+  top: 3.33px;
+  position: absolute;
+  outline: 1.33px #04AF9E solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVoltarspan = styled.span`
+  color: #04AF9E;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledDadosdaviagem200233604405span = styled.span`
+  color: black;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 36px;
+  word-wrap: break-word;
+`;
+
+const StyledVector04 = styled.div`
+  width: 12px;
+  height: 12px;
+  left: 2px;
+  top: 2.67px;
+  position: absolute;
+  outline: 1.33px #04AF9E solid;
+  outline-offset: -0.67px;
+`;
+
+const Styled22012025span = styled.span`
+  color: black;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledVector06 = styled.div`
+  width: 4px;
+  height: 6px;
+  left: 6px;
+  top: 8px;
+  position: absolute;
+  outline: 1.33px #04AF9E solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector07 = styled.div`
+  width: 12px;
+  height: 12.67px;
+  left: 2px;
+  top: 1.33px;
+  position: absolute;
+  outline: 1.33px #04AF9E solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledPostoaraxspan = styled.span`
+  color: black;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledSalvarviagemspan = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledNmeroviagemcoletorspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const StyledInput = styled.div`
+  align-self: stretch;
+  height: 56px;
+  background: white;
+  border-radius: 4px;
+  border: 1px #04AF9E solid;
+`;
+
+const StyledLocaldescarga1percursospan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const StyledPostoarax01span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector08 = styled.div`
+  width: 8px;
+  height: 4px;
+  left: 4px;
+  top: 6px;
+  position: absolute;
+  outline: 1.33px #717182 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledTransportadoraspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const Styled082transportadoragspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledResponsvelspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const StyledVector09 = styled.div`
+  width: 8px;
+  height: 4px;
+  left: 4px;
+  top: 6px;
+  position: absolute;
+  outline: 1.33px #717182 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledMotoristaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const Styled14725836985paulacristinamendesspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledPlacacaminhospan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const StyledPqr8j37span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRotaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const Styled2236rspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVignciadarotaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledVector10 = styled.div`
+  width: 15px;
+  height: 16.67px;
+  left: 2.50px;
+  top: 0.83px;
+  position: absolute;
+  background: #F44336;
+`;
+
+const StyledInciospan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled01012024span = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledFinalspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled31122024span = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledPlacareboquespan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const StyledMlk7654span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledPesobrutospan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const Styled0span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTaraspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const Styled001span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledDensidadespan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const Styled002span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton02 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px #04AF9E solid;
+`;
+
+const StyledQuantidadelivrespan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const Styled003span = styled.span`
+  color: #717182;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledClculodevolumespan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 14px;
+  word-wrap: break-word;
+`;
+
+const StyledVolumebrutospan = styled.span`
+  color: #4A5565;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const Styled0000span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledSpan = styled.span`
+  color: #4A5565;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+`;
+
+const StyledVolumefiscalspan = styled.span`
+  color: #4A5565;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const Styled10349span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledSpan = styled.span`
+  color: #4A5565;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+`;
+
+const StyledDiferenaspan = styled.span`
+  color: #4A5565;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const Styled10349span = styled.span`
+  color: #FB2C36;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRegistrosporcooperativaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+`;
+
+const StyledNcooperativaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTotaldevalesspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTotaldeleitespan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTotaldeocorrnciasspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledAesspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled234span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled6span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled31800span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled2span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector11 = styled.div`
+  width: 1.33px;
+  height: 1.33px;
+  left: 7.33px;
+  top: 7.33px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector12 = styled.div`
+  width: 1.33px;
+  height: 1.33px;
+  left: 12px;
+  top: 7.33px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector13 = styled.div`
+  width: 1.33px;
+  height: 1.33px;
+  left: 2.67px;
+  top: 7.33px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const Styled246span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled3span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled16200span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled1span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector14 = styled.div`
+  width: 1.33px;
+  height: 1.33px;
+  left: 7.33px;
+  top: 7.33px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector15 = styled.div`
+  width: 1.33px;
+  height: 1.33px;
+  left: 12px;
+  top: 7.33px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector16 = styled.div`
+  width: 1.33px;
+  height: 1.33px;
+  left: 2.67px;
+  top: 7.33px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const Styled247span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled201span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled9600span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled004span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector17 = styled.div`
+  width: 1.33px;
+  height: 1.33px;
+  left: 7.33px;
+  top: 7.33px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector18 = styled.div`
+  width: 1.33px;
+  height: 1.33px;
+  left: 12px;
+  top: 7.33px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector19 = styled.div`
+  width: 1.33px;
+  height: 1.33px;
+  left: 2.67px;
+  top: 7.33px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledImageWithFallback = styled.img`
+  flex: 1 1 0;
+  height: 32px;
+  position: relative;
+`;
+
+const StyledAmaralamarantesspan = styled.span`
+  color: white;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 23.33px;
+  word-wrap: break-word;
+`;
+
+const StyledVector23 = styled.div`
+  width: 5px;
+  height: 10px;
+  left: 16px;
+  top: 7px;
+  position: absolute;
+  outline: 2px white solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector25 = styled.div`
+  width: 6px;
+  height: 18px;
+  left: 3px;
+  top: 3px;
+  position: absolute;
+  outline: 2px white solid;
+  outline-offset: -1px;
+`;
+
+const StyledHeading1 = styled.div`
+  align-self: stretch;
+  height: 118px;
+  position: relative;
+  background: #F5F5F5;
+`;
+
+const StyledText = styled.div`
+  flex: 1 1 0;
+  height: 36px;
+  position: relative;
+`;
+
+const StyledText01 = styled.div`
+  flex: 1 1 0;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText02 = styled.div`
+  flex: 1 1 0;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledButton01 = styled.button`
+  width: 122.02px;
+  height: 46px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  opacity: 0.50;
+  background: #04AF9E;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivelabel = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledPrimitivelabel01 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledPrimitivespan = styled.div`
+  width: 90.64px;
+  height: 20px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivelabel02 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledInput01 = styled.div`
+  align-self: stretch;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  opacity: 0.50;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #212121 solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivelabel03 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledPrimitivelabel04 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledInput02 = styled.div`
+  align-self: stretch;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  opacity: 0.50;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #212121 solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivelabel05 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledInput03 = styled.div`
+  align-self: stretch;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  opacity: 0.50;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #212121 solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivelabel06 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledInput04 = styled.div`
+  align-self: stretch;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  opacity: 0.50;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #212121 solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledText03 = styled.div`
+  width: 133.97px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledBoldText = styled.div`
+  width: 41.23px;
+  height: 16px;
+  left: 0px;
+  top: 2px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledBoldText01 = styled.div`
+  width: 37.34px;
+  height: 16px;
+  left: 0px;
+  top: 2px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledPrimitivelabel07 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledInput05 = styled.div`
+  align-self: stretch;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  opacity: 0.50;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #212121 solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivelabel08 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledInput06 = styled.div`
+  align-self: stretch;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivelabel09 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledInput07 = styled.div`
+  align-self: stretch;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivelabel10 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledInput08 = styled.div`
+  align-self: stretch;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivelabel11 = styled.div`
+  width: 105.33px;
+  height: 14px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledInput09 = styled.div`
+  align-self: stretch;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  opacity: 0.50;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivelabel12 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+`;
+
+const StyledPrimitivelabel13 = styled.div`
+  align-self: stretch;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledInput10 = styled.div`
+  align-self: stretch;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  opacity: 0.50;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #212121 solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledText04 = styled.div`
+  width: 7.23px;
+  height: 28px;
+  left: 237.75px;
+  top: 26px;
+  position: absolute;
+`;
+
+const StyledPrimitivelabel14 = styled.div`
+  align-self: stretch;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledInput11 = styled.div`
+  align-self: stretch;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  opacity: 0.50;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #212121 solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledText05 = styled.div`
+  width: 12.50px;
+  height: 28px;
+  left: 490.73px;
+  top: 26px;
+  position: absolute;
+`;
+
+const StyledPrimitivelabel15 = styled.div`
+  align-self: stretch;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledInput12 = styled.div`
+  align-self: stretch;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  opacity: 0.50;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #212121 solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledHeading3 = styled.div`
+  align-self: stretch;
+  height: 28px;
+  position: relative;
+`;
+
+const StyledTableHead = styled.div`
+  width: 331.36px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableHead01 = styled.div`
+  width: 301.61px;
+  height: 40px;
+  left: 331.36px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableHead02 = styled.div`
+  width: 295.66px;
+  height: 40px;
+  left: 632.97px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableHead03 = styled.div`
+  width: 425.38px;
+  height: 40px;
+  left: 928.62px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableHead04 = styled.div`
+  width: 158px;
+  height: 40px;
+  left: 1354px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell = styled.div`
+  width: 331.36px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell01 = styled.div`
+  width: 301.61px;
+  height: 52px;
+  left: 331.36px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell02 = styled.div`
+  width: 295.66px;
+  height: 52px;
+  left: 632.97px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell03 = styled.div`
+  width: 425.38px;
+  height: 52px;
+  left: 928.62px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell05 = styled.div`
+  width: 331.36px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell06 = styled.div`
+  width: 301.61px;
+  height: 52px;
+  left: 331.36px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell07 = styled.div`
+  width: 295.66px;
+  height: 52px;
+  left: 632.97px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell08 = styled.div`
+  width: 425.38px;
+  height: 52px;
+  left: 928.62px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell10 = styled.div`
+  width: 331.36px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell11 = styled.div`
+  width: 301.61px;
+  height: 52px;
+  left: 331.36px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell12 = styled.div`
+  width: 295.66px;
+  height: 52px;
+  left: 632.97px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell13 = styled.div`
+  width: 425.38px;
+  height: 52px;
+  left: 928.62px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText06 = styled.div`
+  flex: 1 1 0;
+  height: 23.33px;
+  position: relative;
+`;
+
+const StyledIcon = styled.div`
+  width: 16px;
+  height: 16px;
+  left: 13px;
+  top: 10px;
+  position: absolute;
+  overflow: hidden;
+`;
+
+const StyledIcon01 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon02 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon03 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  opacity: 0.50;
+  overflow: hidden;
+`;
+
+const StyledIcon04 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  opacity: 0.50;
+  overflow: hidden;
+`;
+
+const StyledIcon05 = styled.div`
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon06 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon07 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon08 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon09 = styled.div`
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon10 = styled.div`
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledContainer07 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer09 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer11 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer12 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer13 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer17 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledContainer18 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledContainer20 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer21 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer22 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer23 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer25 = styled.div`
+  align-self: stretch;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer28 = styled.div`
+  width: 229.75px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer29 = styled.div`
+  width: 229.75px;
+  height: 60px;
+  left: 252.98px;
+  top: 0px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer30 = styled.div`
+  width: 229.75px;
+  height: 60px;
+  left: 511.23px;
+  top: 0px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledTableRow = styled.div`
+  width: 1512px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-bottom: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const StyledButton = styled.button`
+  width: 95.66px;
+  height: 36px;
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+`;
+
+const StyledContainer03 = styled.div`
+  width: 105.47px;
+  height: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledContainer04 = styled.div`
+  width: 127.58px;
+  height: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivebutton = styled.button`
+  align-self: stretch;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton01 = styled.button`
+  align-self: stretch;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer15 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledButton02 = styled.button`
+  width: 32px;
+  height: 32px;
+  left: 8.50px;
+  top: 10px;
+  position: absolute;
+  background: #04AF9E;
+  border-radius: 33554400px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledButton03 = styled.button`
+  width: 32px;
+  height: 32px;
+  left: 8.50px;
+  top: 10px;
+  position: absolute;
+  background: #04AF9E;
+  border-radius: 33554400px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledButton04 = styled.button`
+  width: 32px;
+  height: 32px;
+  left: 8.50px;
+  top: 10.25px;
+  position: absolute;
+  background: #04AF9E;
+  border-radius: 33554400px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer33 = styled.div`
+  width: 150px;
+  height: 32px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledContainer34 = styled.div`
+  width: 163.39px;
+  height: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledContainer16 = styled.div`
+  align-self: stretch;
+  height: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledContainer24 = styled.div`
+  align-self: stretch;
+  height: 74px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer27 = styled.div`
+  align-self: stretch;
+  height: 60px;
+  position: relative;
+`;
+
+const StyledTableHeader = styled.div`
+  width: 1512px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledContainer02 = styled.div`
+  width: 749.78px;
+  height: 36px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledContainer08 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer10 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledTableCell04 = styled.div`
+  width: 158px;
+  height: 52px;
+  left: 1354px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell09 = styled.div`
+  width: 158px;
+  height: 52px;
+  left: 1354px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell14 = styled.div`
+  width: 158px;
+  height: 52px;
+  left: 1354px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledNavbar = styled.div`
+  width: 1594px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #04AF9E;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer14 = styled.div`
+  align-self: stretch;
+  height: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledContainer26 = styled.div`
+  align-self: stretch;
+  height: 76px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+`;
+
+const StyledContainer01 = styled.div`
+  align-self: stretch;
+  height: 46px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledTableRow01 = styled.div`
+  width: 1512px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-top: 1px #CACACA solid;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableRow02 = styled.div`
+  width: 1512px;
+  height: 52px;
+  left: 0px;
+  top: 52px;
+  position: absolute;
+  border-top: 1px #CACACA solid;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableRow03 = styled.div`
+  width: 1512px;
+  height: 52px;
+  left: 0px;
+  top: 104px;
+  position: absolute;
+`;
+
+const StyledContainer06 = styled.div`
+  align-self: stretch;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+`;
+
+const StyledContainer19 = styled.div`
+  align-self: stretch;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+`;
+
+const StyledTableBody = styled.div`
+  width: 1512px;
+  height: 156px;
+  left: 0px;
+  top: 40px;
+  position: absolute;
+`;
+
+const StyledContainer05 = styled.div`
+  align-self: stretch;
+  height: 768px;
+  background: white;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledTable = styled.div`
+  align-self: stretch;
+  height: 196px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledContainer32 = styled.div`
+  align-self: stretch;
+  height: 198px;
+  padding: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  outline: 1px #CACACA solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledContainer31 = styled.div`
+  align-self: stretch;
+  height: 242px;
+  background: white;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledContainer = styled.div`
+  align-self: stretch;
+  height: 1192px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+`;
+
+const StyledTravelValidation = styled.div`
+  width: 1594px;
+  height: 1374px;
+  padding-top: 64px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: white;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledViagens = styled.div`
+  width: 1594px;
+  height: 1374px;
+  position: relative;
+  background: white;
+`;
+
+export const Viagens = () => {
+  return (
+    <StyledViagens>
+      <StyledTravelValidation>
+        <StyledHeading1>
+          <StyledValidarViagem>Validar Viagem</StyledValidarViagem>
+        </StyledHeading1>
+        <StyledContainer>
+          <StyledContainer01>
+            <StyledContainer02>
+              <StyledButton>
+                <StyledIcon>
+                  <StyledVector />
+                </StyledIcon>
+                <StyledVoltar>Voltar</StyledVoltar>
+              </StyledButton>
+              <StyledText>
+                <StyledDadosdaviagem200233604405>Dados da viagem: 200233604405</StyledDadosdaviagem200233604405>
+              </StyledText>
+              <StyledContainer03>
+                <StyledIcon01>
+                  <StyledVector04 />
+                </StyledIcon01>
+                <StyledText01>
+                  <Styled22012025>22/01/2025</Styled22012025>
+                </StyledText01>
+              </StyledContainer03>
+              <StyledContainer04>
+                <StyledIcon02>
+                  <StyledVector06 />
+                  <StyledVector07 />
+                </StyledIcon02>
+                <StyledText02>
+                  <StyledPOSTOARAX>POSTO ARAXÁ</StyledPOSTOARAX>
+                </StyledText02>
+              </StyledContainer04>
+            </StyledContainer02>
+            <StyledButton01>
+              <StyledSalvarViagem>Salvar Viagem</StyledSalvarViagem>
+            </StyledButton01>
+          </StyledContainer01>
+          <StyledContainer05>
+            <StyledContainer06>
+              <StyledContainer07>
+                <StyledPrimitivelabel>
+                  <StyledNmeroViagemColetor>Número Viagem Coletor</StyledNmeroViagemColetor>
+                </StyledPrimitivelabel>
+                <StyledInput />
+              </StyledContainer07>
+              <StyledContainer08>
+                <StyledPrimitivelabel01>
+                  <StyledLocalDescarga1Percurso>Local Descarga 1º Percurso</StyledLocalDescarga1Percurso>
+                </StyledPrimitivelabel01>
+                <StyledPrimitivebutton>
+                  <StyledPrimitivespan>
+                    <StyledPOSTOARAX01>POSTO ARAXÁ</StyledPOSTOARAX01>
+                  </StyledPrimitivespan>
+                  <StyledIcon03>
+                    <StyledVector08 />
+                  </StyledIcon03>
+                </StyledPrimitivebutton>
+              </StyledContainer08>
+              <StyledContainer09>
+                <StyledPrimitivelabel02>
+                  <StyledTransportadora>Transportadora</StyledTransportadora>
+                </StyledPrimitivelabel02>
+                <StyledInput01>
+                  <Styled082TransportadoraG>082 - Transportadora G</Styled082TransportadoraG>
+                </StyledInput01>
+              </StyledContainer09>
+              <StyledContainer10>
+                <StyledPrimitivelabel03>
+                  <StyledResponsvel>Responsável</StyledResponsvel>
+                </StyledPrimitivelabel03>
+                <StyledPrimitivebutton01>
+                  <StyledIcon04>
+                    <StyledVector09 />
+                  </StyledIcon04>
+                </StyledPrimitivebutton01>
+              </StyledContainer10>
+              <StyledContainer11>
+                <StyledPrimitivelabel04>
+                  <StyledMotorista>Motorista</StyledMotorista>
+                </StyledPrimitivelabel04>
+                <StyledInput02>
+                  <Styled14725836985PaulaCristinaMendes>147.258.369-85 - Paula Cristina Mendes</Styled14725836985PaulaCristinaMendes>
+                </StyledInput02>
+              </StyledContainer11>
+              <StyledContainer12>
+                <StyledPrimitivelabel05>
+                  <StyledPlacaCaminho>Placa Caminhão</StyledPlacaCaminho>
+                </StyledPrimitivelabel05>
+                <StyledInput03>
+                  <StyledPQR8J37>PQR-8J37</StyledPQR8J37>
+                </StyledInput03>
+              </StyledContainer12>
+              <StyledContainer13>
+                <StyledPrimitivelabel06>
+                  <StyledRota>Rota</StyledRota>
+                </StyledPrimitivelabel06>
+                <StyledInput04>
+                  <Styled2236R>2236R</Styled2236R>
+                </StyledInput04>
+              </StyledContainer13>
+              <StyledContainer14>
+                <StyledContainer15>
+                  <StyledText03>
+                    <StyledVignciadaRota>Vigência da Rota:</StyledVignciadaRota>
+                  </StyledText03>
+                  <StyledIcon05>
+                    <StyledVector10 />
+                  </StyledIcon05>
+                </StyledContainer15>
+                <StyledContainer16>
+                  <StyledContainer17>
+                    <StyledBoldText>
+                      <StyledIncio>Início:</StyledIncio>
+                    </StyledBoldText>
+                    <Styled01012024>01/01/2024</Styled01012024>
+                  </StyledContainer17>
+                  <StyledContainer18>
+                    <StyledBoldText01>
+                      <StyledFinal>Final:</StyledFinal>
+                    </StyledBoldText01>
+                    <Styled31122024>31/12/2024</Styled31122024>
+                  </StyledContainer18>
+                </StyledContainer16>
+              </StyledContainer14>
+            </StyledContainer06>
+            <StyledContainer19>
+              <StyledContainer20>
+                <StyledPrimitivelabel07>
+                  <StyledPlacaReboque>Placa Reboque</StyledPlacaReboque>
+                </StyledPrimitivelabel07>
+                <StyledInput05>
+                  <StyledMLK7654>MLK-7654</StyledMLK7654>
+                </StyledInput05>
+              </StyledContainer20>
+              <StyledContainer21>
+                <StyledPrimitivelabel08>
+                  <StyledPesoBruto>Peso Bruto</StyledPesoBruto>
+                </StyledPrimitivelabel08>
+                <StyledInput06>
+                  <Styled0>0</Styled0>
+                </StyledInput06>
+              </StyledContainer21>
+              <StyledContainer22>
+                <StyledPrimitivelabel09>
+                  <StyledTara>Tara</StyledTara>
+                </StyledPrimitivelabel09>
+                <StyledInput07>
+                  <Styled001>0</Styled001>
+                </StyledInput07>
+              </StyledContainer22>
+              <StyledContainer23>
+                <StyledPrimitivelabel10>
+                  <StyledDensidade>Densidade</StyledDensidade>
+                </StyledPrimitivelabel10>
+                <StyledInput08>
+                  <Styled002>0</Styled002>
+                </StyledInput08>
+              </StyledContainer23>
+              <StyledContainer24>
+                <StyledContainer25>
+                  <StyledPrimitivebutton02 />
+                  <StyledPrimitivelabel11>
+                    <StyledQuantidadelivre>Quantidade livre</StyledQuantidadelivre>
+                  </StyledPrimitivelabel11>
+                </StyledContainer25>
+                <StyledInput09>
+                  <Styled003>0</Styled003>
+                </StyledInput09>
+              </StyledContainer24>
+              <StyledContainer26>
+                <StyledPrimitivelabel12>
+                  <StyledClculodeVolume>Cálculo de Volume</StyledClculodeVolume>
+                </StyledPrimitivelabel12>
+                <StyledContainer27>
+                  <StyledContainer28>
+                    <StyledPrimitivelabel13>
+                      <StyledVolumeBruto>Volume Bruto</StyledVolumeBruto>
+                    </StyledPrimitivelabel13>
+                    <StyledInput10>
+                      <Styled0000>0,000</Styled0000>
+                    </StyledInput10>
+                  </StyledContainer28>
+                  <StyledText04>
+                    <StyledP>-</StyledP>
+                  </StyledText04>
+                  <StyledContainer29>
+                    <StyledPrimitivelabel14>
+                      <StyledVolumeFiscal>Volume Fiscal</StyledVolumeFiscal>
+                    </StyledPrimitivelabel14>
+                    <StyledInput11>
+                      <Styled10349>10,349</Styled10349>
+                    </StyledInput11>
+                  </StyledContainer29>
+                  <StyledText05>
+                    <StyledP>=</StyledP>
+                  </StyledText05>
+                  <StyledContainer30>
+                    <StyledPrimitivelabel15>
+                      <StyledDiferena>Diferença</StyledDiferena>
+                    </StyledPrimitivelabel15>
+                    <StyledInput12>
+                      <Styled10349>-10,349</Styled10349>
+                    </StyledInput12>
+                  </StyledContainer30>
+                </StyledContainer27>
+              </StyledContainer26>
+            </StyledContainer19>
+          </StyledContainer05>
+          <StyledContainer31>
+            <StyledHeading3>
+              <StyledRegistrosporCooperativa>Registros por Cooperativa</StyledRegistrosporCooperativa>
+            </StyledHeading3>
+            <StyledContainer32>
+              <StyledTable>
+                <StyledTableHeader>
+                  <StyledTableRow>
+                    <StyledTableHead>
+                      <StyledNCooperativa>Nº Cooperativa</StyledNCooperativa>
+                    </StyledTableHead>
+                    <StyledTableHead01>
+                      <StyledTotaldeVales>Total de Vales</StyledTotaldeVales>
+                    </StyledTableHead01>
+                    <StyledTableHead02>
+                      <StyledTotaldeLeite>Total de Leite</StyledTotaldeLeite>
+                    </StyledTableHead02>
+                    <StyledTableHead03>
+                      <StyledTotaldeOcorrncias>Total de Ocorrências</StyledTotaldeOcorrncias>
+                    </StyledTableHead03>
+                    <StyledTableHead04>
+                      <StyledAes>Ações</StyledAes>
+                    </StyledTableHead04>
+                  </StyledTableRow>
+                </StyledTableHeader>
+                <StyledTableBody>
+                  <StyledTableRow01>
+                    <StyledTableCell>
+                      <Styled234>234</Styled234>
+                    </StyledTableCell>
+                    <StyledTableCell01>
+                      <Styled6>6</Styled6>
+                    </StyledTableCell01>
+                    <StyledTableCell02>
+                      <Styled31800>31.800</Styled31800>
+                    </StyledTableCell02>
+                    <StyledTableCell03>
+                      <Styled2>2</Styled2>
+                    </StyledTableCell03>
+                    <StyledTableCell04>
+                      <StyledButton02>
+                        <StyledIcon06>
+                          <StyledVector11 />
+                          <StyledVector12 />
+                          <StyledVector13 />
+                        </StyledIcon06>
+                      </StyledButton02>
+                    </StyledTableCell04>
+                  </StyledTableRow01>
+                  <StyledTableRow02>
+                    <StyledTableCell05>
+                      <Styled246>246</Styled246>
+                    </StyledTableCell05>
+                    <StyledTableCell06>
+                      <Styled3>3</Styled3>
+                    </StyledTableCell06>
+                    <StyledTableCell07>
+                      <Styled16200>16.200</Styled16200>
+                    </StyledTableCell07>
+                    <StyledTableCell08>
+                      <Styled1>1</Styled1>
+                    </StyledTableCell08>
+                    <StyledTableCell09>
+                      <StyledButton03>
+                        <StyledIcon07>
+                          <StyledVector14 />
+                          <StyledVector15 />
+                          <StyledVector16 />
+                        </StyledIcon07>
+                      </StyledButton03>
+                    </StyledTableCell09>
+                  </StyledTableRow02>
+                  <StyledTableRow03>
+                    <StyledTableCell10>
+                      <Styled247>247</Styled247>
+                    </StyledTableCell10>
+                    <StyledTableCell11>
+                      <Styled201>2</Styled201>
+                    </StyledTableCell11>
+                    <StyledTableCell12>
+                      <Styled9600>9.600</Styled9600>
+                    </StyledTableCell12>
+                    <StyledTableCell13>
+                      <Styled004>0</Styled004>
+                    </StyledTableCell13>
+                    <StyledTableCell14>
+                      <StyledButton04>
+                        <StyledIcon08>
+                          <StyledVector17 />
+                          <StyledVector18 />
+                          <StyledVector19 />
+                        </StyledIcon08>
+                      </StyledButton04>
+                    </StyledTableCell14>
+                  </StyledTableRow03>
+                </StyledTableBody>
+              </StyledTable>
+            </StyledContainer32>
+          </StyledContainer31>
+        </StyledContainer>
+      </StyledTravelValidation>
+      <StyledNavbar>
+        <StyledContainer33>
+          <StyledIcon09 />
+          <StyledImageWithFallback  src="https://placehold.co/110x32"/>
+        </StyledContainer33>
+        <StyledContainer34>
+          <StyledText06>
+            <StyledAmaralAmarantes>Amaral Amarantes</StyledAmaralAmarantes>
+          </StyledText06>
+          <StyledIcon10>
+            <StyledVector23 />
+            <StyledVector25 />
+          </StyledIcon10>
+        </StyledContainer34>
+      </StyledNavbar>
+    </StyledViagens>
+  );
+};
