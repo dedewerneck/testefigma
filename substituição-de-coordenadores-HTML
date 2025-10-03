@@ -1,0 +1,681 @@
+<div style="width: 1594px; height: 1244px; position: relative; background: white">
+  <div style="width: 1594px; height: 1244px; left: 0px; top: 0px; position: absolute; background: white">
+    <div style="width: 1594px; height: 118px; padding-top: 35px; padding-left: 40px; padding-right: 1139.55px; left: 0px; top: 64px; position: absolute; background: #F3F4F6; box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.10); flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+      <div style="align-self: stretch; height: 48px; position: relative">
+        <div style="left: 0px; top: 1px; position: absolute; color: #04AF9E; font-size: 32px; font-family: Roboto; font-weight: 500; line-height: 48px; word-wrap: break-word">Substituição de Supervisores</div>
+      </div>
+    </div>
+    <div style="width: 1514px; height: 950px; left: 40px; top: 222px; position: absolute; background: white; border-radius: 4px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 48px; display: inline-flex">
+      <div style="width: 1514px; height: 110px; position: relative">
+        <div style="width: 1514px; height: 77px; left: 0px; top: 0px; position: absolute; justify-content: flex-start; align-items: flex-end; gap: 16px; display: inline-flex">
+          <div style="width: 662.09px; height: 77px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+            <div style="align-self: stretch; height: 21px; position: relative">
+              <div style="left: 0px; top: 0px; position: absolute; color: #364153; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">Supervisor Origem</div>
+            </div>
+            <div style="align-self: stretch; height: 48px; padding-left: 16px; padding-right: 16px; background: white; border-radius: 4px; outline: 1px #D1D5DC solid; outline-offset: -1px; justify-content: space-between; align-items: center; display: inline-flex">
+              <div style="width: 133.38px; height: 39px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                <div style="align-self: stretch; height: 21px; position: relative">
+                  <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">João Silva</div>
+                </div>
+                <div style="align-self: stretch; height: 18px; position: relative">
+                  <div style="width: 134px; left: 0px; top: -1px; position: absolute; color: #6A7282; font-size: 12px; font-family: Arial; font-weight: 400; line-height: 18px; word-wrap: break-word">123.456.789-00 • SUP001</div>
+                </div>
+              </div>
+              <div style="width: 16px; height: 16px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                <div style="align-self: stretch; height: 16px; position: relative; overflow: hidden">
+                  <div style="width: 8px; height: 8px; left: 4px; top: 4px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                  <div style="width: 8px; height: 8px; left: 4px; top: 4px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="width: 24px; height: 36px; justify-content: flex-start; align-items: center; display: flex">
+            <div style="flex: 1 1 0; height: 24px; position: relative; overflow: hidden">
+              <div style="width: 7px; height: 14px; left: 12px; top: 5px; position: absolute; outline: 2px #04AF9E solid; outline-offset: -1px"></div>
+            </div>
+          </div>
+          <div style="width: 662.09px; height: 77px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+            <div style="align-self: stretch; height: 21px; position: relative">
+              <div style="left: 0px; top: 0px; position: absolute; color: #364153; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">Supervisor Destino</div>
+            </div>
+            <div style="align-self: stretch; height: 48px; padding-left: 16px; padding-right: 16px; background: white; border-radius: 4px; outline: 1px #D1D5DC solid; outline-offset: -1px; justify-content: space-between; align-items: center; display: inline-flex">
+              <div style="width: 133.38px; height: 39px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                <div style="align-self: stretch; height: 21px; position: relative">
+                  <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Maria Santos</div>
+                </div>
+                <div style="align-self: stretch; height: 18px; position: relative">
+                  <div style="width: 134px; left: 0px; top: -1px; position: absolute; color: #6A7282; font-size: 12px; font-family: Arial; font-weight: 400; line-height: 18px; word-wrap: break-word">987.654.321-00 • SUP002</div>
+                </div>
+              </div>
+              <div style="width: 16px; height: 16px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                <div style="align-self: stretch; height: 16px; position: relative; overflow: hidden">
+                  <div style="width: 8px; height: 8px; left: 4px; top: 4px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                  <div style="width: 8px; height: 8px; left: 4px; top: 4px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="width: 117.83px; height: 48px; position: relative; background: #04AF9E; border-radius: 4px">
+            <div style="left: 32px; top: 12px; position: absolute; color: white; font-size: 14px; font-family: Arial; font-weight: 400; line-height: 20px; word-wrap: break-word">Executar</div>
+          </div>
+        </div>
+        <div style="width: 171.45px; height: 22px; left: 0px; top: 88px; position: absolute; background: rgba(4, 175, 158, 0.10); overflow: hidden; border-radius: 8px; outline: 1px rgba(0, 0, 0, 0) solid; outline-offset: -1px">
+          <div style="width: 154px; left: 9px; top: 3px; position: absolute; color: #04AF9E; font-size: 12px; font-family: Roboto; font-weight: 500; line-height: 16px; word-wrap: break-word">250 propriedades vinculadas</div>
+        </div>
+      </div>
+      <div style="width: 1514px; height: 94px; padding-bottom: 25px; border-bottom: 1px rgba(0, 0, 0, 0.10) solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+        <div style="align-self: stretch; align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+          <div style="align-self: stretch; height: 21px; position: relative">
+            <div style="left: 0px; top: 0px; position: absolute; color: #364153; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">Cooperativa</div>
+          </div>
+          <div style="align-self: stretch; height: 40px; padding-left: 12px; padding-right: 12px; background: white; border-radius: 4px; outline: 1px rgba(0, 0, 0, 0.10) solid; outline-offset: -1px; justify-content: space-between; align-items: center; display: inline-flex">
+            <div style="width: 70.03px; height: 22px; position: relative; background: rgba(4, 175, 158, 0.10); overflow: hidden; border-radius: 8px; outline: 1px rgba(0, 0, 0, 0) solid; outline-offset: -1px">
+              <div style="left: 9px; top: 3px; position: absolute; color: #04AF9E; font-size: 12px; font-family: Roboto; font-weight: 500; line-height: 16px; word-wrap: break-word">Todas</div>
+              <div style="width: 12px; height: 12px; left: 49.03px; top: 5px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                <div style="align-self: stretch; height: 12px; position: relative; overflow: hidden">
+                  <div style="width: 6px; height: 6px; left: 3px; top: 3px; position: absolute; outline: 1px #04AF9E solid; outline-offset: -0.50px"></div>
+                  <div style="width: 6px; height: 6px; left: 3px; top: 3px; position: absolute; outline: 1px #04AF9E solid; outline-offset: -0.50px"></div>
+                </div>
+              </div>
+            </div>
+            <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+              <div style="width: 8px; height: 4px; left: 4px; top: 6px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+            </div>
+          </div>
+        </div>
+        <div style="align-self: stretch; align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+          <div style="align-self: stretch; height: 21px; position: relative">
+            <div style="left: 0px; top: 0px; position: absolute; color: #364153; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">Linha</div>
+          </div>
+          <div style="align-self: stretch; height: 40px; padding-left: 12px; padding-right: 12px; background: white; border-radius: 4px; outline: 1px rgba(0, 0, 0, 0.10) solid; outline-offset: -1px; justify-content: space-between; align-items: center; display: inline-flex">
+            <div style="flex: 1 1 0; height: 22px; position: relative">
+              <div style="width: 51.36px; height: 22px; left: 0px; top: 0px; position: absolute; background: rgba(4, 175, 158, 0.10); overflow: hidden; border-radius: 8px; outline: 1px rgba(0, 0, 0, 0) solid; outline-offset: -1px">
+                <div style="left: 9px; top: 3px; position: absolute; color: #04AF9E; font-size: 12px; font-family: Roboto; font-weight: 500; line-height: 16px; word-wrap: break-word">66</div>
+                <div style="width: 12px; height: 12px; left: 30.36px; top: 5px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                  <div style="align-self: stretch; height: 12px; position: relative; overflow: hidden">
+                    <div style="width: 6px; height: 6px; left: 3px; top: 3px; position: absolute; outline: 1px #04AF9E solid; outline-offset: -0.50px"></div>
+                    <div style="width: 6px; height: 6px; left: 3px; top: 3px; position: absolute; outline: 1px #04AF9E solid; outline-offset: -0.50px"></div>
+                  </div>
+                </div>
+              </div>
+              <div style="width: 51.36px; height: 22px; left: 55.36px; top: 0px; position: absolute; background: rgba(4, 175, 158, 0.10); overflow: hidden; border-radius: 8px; outline: 1px rgba(0, 0, 0, 0) solid; outline-offset: -1px">
+                <div style="left: 9px; top: 3px; position: absolute; color: #04AF9E; font-size: 12px; font-family: Roboto; font-weight: 500; line-height: 16px; word-wrap: break-word">83</div>
+                <div style="width: 12px; height: 12px; left: 30.36px; top: 5px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                  <div style="align-self: stretch; height: 12px; position: relative; overflow: hidden">
+                    <div style="width: 6px; height: 6px; left: 3px; top: 3px; position: absolute; outline: 1px #04AF9E solid; outline-offset: -0.50px"></div>
+                    <div style="width: 6px; height: 6px; left: 3px; top: 3px; position: absolute; outline: 1px #04AF9E solid; outline-offset: -0.50px"></div>
+                  </div>
+                </div>
+              </div>
+              <div style="width: 51.36px; height: 22px; left: 110.72px; top: 0px; position: absolute; background: rgba(4, 175, 158, 0.10); overflow: hidden; border-radius: 8px; outline: 1px rgba(0, 0, 0, 0) solid; outline-offset: -1px">
+                <div style="left: 9px; top: 3px; position: absolute; color: #04AF9E; font-size: 12px; font-family: Roboto; font-weight: 500; line-height: 16px; word-wrap: break-word">47</div>
+                <div style="width: 12px; height: 12px; left: 30.36px; top: 5px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                  <div style="align-self: stretch; height: 12px; position: relative; overflow: hidden">
+                    <div style="width: 6px; height: 6px; left: 3px; top: 3px; position: absolute; outline: 1px #04AF9E solid; outline-offset: -0.50px"></div>
+                    <div style="width: 6px; height: 6px; left: 3px; top: 3px; position: absolute; outline: 1px #04AF9E solid; outline-offset: -0.50px"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+              <div style="width: 8px; height: 4px; left: 4px; top: 6px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="width: 1514px; flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+        <div style="align-self: stretch; height: 27px; position: relative">
+          <div style="left: 0px; top: 0px; position: absolute; color: #1E2939; font-size: 18px; font-family: Roboto; font-weight: 600; line-height: 27px; word-wrap: break-word">Propriedades</div>
+        </div>
+        <div style="align-self: stretch; height: 607px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+          <div style="align-self: stretch; height: 559px; padding: 1px; overflow: hidden; border-radius: 4px; outline: 1px #CACACA solid; outline-offset: -1px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+            <div style="align-self: stretch; height: 557px; position: relative; background: white">
+              <div style="width: 1512px; height: 66.50px; left: 0px; top: 0px; position: absolute; background: white">
+                <div style="width: 1512px; height: 66.50px; left: 0px; top: 0px; position: absolute">
+                  <div style="width: 171.52px; height: 66.50px; left: 0px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 147.02px; height: 42px; left: 12px; top: 12px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                      <div style="width: 16px; height: 16px; position: relative; background: #F3F3F5; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); border-radius: 4px; border: 1px rgba(0, 0, 0, 0.10) solid"></div>
+                      <div style="width: 99.14px; flex: 1 1 0; position: relative">
+                        <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 12px; font-family: Roboto; font-weight: 600; line-height: 18px; word-wrap: break-word">Selecionar Todos</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 241.58px; height: 66.50px; left: 171.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 149.16px; height: 21px; left: 12.50px; top: 22.50px; position: absolute">
+                      <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">Nome/Razão Social</div>
+                      <div style="width: 16px; height: 16px; left: 133.16px; top: 2.50px; position: absolute; overflow: hidden">
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 10px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 2.67px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 197.75px; height: 66.50px; left: 413.09px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 89.23px; height: 21px; left: 12.50px; top: 22.50px; position: absolute">
+                      <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">CPF/CNPJ</div>
+                      <div style="width: 16px; height: 16px; left: 73.23px; top: 2.50px; position: absolute; overflow: hidden">
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 10px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 2.67px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 174.67px; height: 66.50px; left: 610.84px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 100.92px; height: 21px; left: 12.50px; top: 22.50px; position: absolute">
+                      <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">Cooperativa</div>
+                      <div style="width: 16px; height: 16px; left: 84.92px; top: 2.50px; position: absolute; overflow: hidden">
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 10px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 2.67px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 114.22px; height: 66.50px; left: 785.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 57.34px; height: 21px; left: 12.50px; top: 22.50px; position: absolute">
+                      <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">Linha</div>
+                      <div style="width: 16px; height: 16px; left: 41.34px; top: 2.50px; position: absolute; overflow: hidden">
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 10px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 2.67px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 147.69px; height: 66.50px; left: 899.73px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 81.47px; height: 21px; left: 12.50px; top: 22.50px; position: absolute">
+                      <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">Matrícula</div>
+                      <div style="width: 16px; height: 16px; left: 65.47px; top: 2.50px; position: absolute; overflow: hidden">
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 10px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 2.67px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 240.45px; height: 66.50px; left: 1047.42px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 148.34px; height: 21px; left: 12.50px; top: 22.50px; position: absolute">
+                      <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">Código de Fazenda</div>
+                      <div style="width: 16px; height: 16px; left: 132.34px; top: 2.50px; position: absolute; overflow: hidden">
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 10px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                        <div style="width: 6.67px; height: 3.33px; left: 4.67px; top: 2.67px; position: absolute; outline: 1.33px #99A1AF solid; outline-offset: -0.67px"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 141.52px; height: 66.50px; left: 1287.88px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 116.52px; height: 21px; left: 12.50px; top: 22.50px; position: absolute">
+                      <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">Fornecedor</div>
+                    </div>
+                  </div>
+                  <div style="width: 82.61px; height: 66.50px; left: 1429.39px; top: 0px; position: absolute; border-bottom: 1px #CACACA solid">
+                    <div style="width: 58.11px; height: 21px; left: 12.50px; top: 22.50px; position: absolute">
+                      <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 600; line-height: 21px; word-wrap: break-word">Ativo</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="width: 1512px; height: 490px; left: 0px; top: 66.50px; position: absolute; background: white">
+                <div style="width: 1512px; height: 49px; left: 0px; top: 0px; position: absolute">
+                  <div style="width: 171.52px; height: 49px; left: 0px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 16px; height: 16px; left: 77.50px; top: 15.50px; position: absolute; background: #04AF9E; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); border-radius: 4px; outline: 1px #04AF9E solid; outline-offset: -1px">
+                      <div style="width: 14px; height: 14px; left: 1px; top: 1px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+                        <div style="width: 14px; height: 14px; position: relative; overflow: hidden">
+                          <div style="width: 9.33px; height: 6.42px; left: 2.33px; top: 3.50px; position: absolute; outline: 1.17px white solid; outline-offset: -0.58px"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 241.58px; height: 49px; left: 171.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 216.58px; height: 21px; left: 12.50px; top: 14px; position: absolute; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                      <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+                        <div style="width: 4px; height: 6px; left: 6px; top: 8px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                        <div style="width: 12px; height: 12.67px; left: 2px; top: 1.33px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                      </div>
+                      <div style="width: 98.08px; height: 21px; position: relative">
+                        <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Fazenda Souza</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 197.75px; height: 49px; left: 413.09px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">20784676/0001-21</div>
+                  </div>
+                  <div style="width: 174.67px; height: 49px; left: 610.84px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">156</div>
+                  </div>
+                  <div style="width: 114.22px; height: 49px; left: 785.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">47</div>
+                  </div>
+                  <div style="width: 147.69px; height: 49px; left: 899.73px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">8118</div>
+                  </div>
+                  <div style="width: 240.45px; height: 49px; left: 1047.42px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">10528</div>
+                  </div>
+                  <div style="width: 141.52px; height: 49px; left: 1287.88px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                  <div style="width: 82.61px; height: 49px; left: 1429.39px; top: 0px; position: absolute; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                </div>
+                <div style="width: 1512px; height: 49px; left: 0px; top: 49px; position: absolute">
+                  <div style="width: 171.52px; height: 49px; left: 0px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 16px; height: 16px; left: 77.50px; top: 15.50px; position: absolute; background: #04AF9E; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); border-radius: 4px; outline: 1px #04AF9E solid; outline-offset: -1px">
+                      <div style="width: 14px; height: 14px; left: 1px; top: 1px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+                        <div style="width: 14px; height: 14px; position: relative; overflow: hidden">
+                          <div style="width: 9.33px; height: 6.42px; left: 2.33px; top: 3.50px; position: absolute; outline: 1.17px white solid; outline-offset: -0.58px"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 241.58px; height: 49px; left: 171.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 216.58px; height: 21px; left: 12.50px; top: 14px; position: absolute; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                      <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+                        <div style="width: 4px; height: 6px; left: 6px; top: 8px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                        <div style="width: 12px; height: 12.67px; left: 2px; top: 1.33px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                      </div>
+                      <div style="width: 117.53px; height: 21px; position: relative">
+                        <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Fazenda São João</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 197.75px; height: 49px; left: 413.09px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">642.296.391-59</div>
+                  </div>
+                  <div style="width: 174.67px; height: 49px; left: 610.84px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">105</div>
+                  </div>
+                  <div style="width: 114.22px; height: 49px; left: 785.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">47</div>
+                  </div>
+                  <div style="width: 147.69px; height: 49px; left: 899.73px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">6927</div>
+                  </div>
+                  <div style="width: 240.45px; height: 49px; left: 1047.42px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">54827</div>
+                  </div>
+                  <div style="width: 141.52px; height: 49px; left: 1287.88px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #EF4444; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Não</div>
+                  </div>
+                  <div style="width: 82.61px; height: 49px; left: 1429.39px; top: 0px; position: absolute; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                </div>
+                <div style="width: 1512px; height: 49px; left: 0px; top: 98px; position: absolute">
+                  <div style="width: 171.52px; height: 49px; left: 0px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 16px; height: 16px; left: 77.50px; top: 15.50px; position: absolute; background: #F3F3F5; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); border-radius: 4px; border: 1px rgba(0, 0, 0, 0.10) solid"></div>
+                  </div>
+                  <div style="width: 241.58px; height: 49px; left: 171.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 216.58px; height: 21px; left: 12.50px; top: 14px; position: absolute; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                      <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+                        <div style="width: 4px; height: 6px; left: 6px; top: 8px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                        <div style="width: 12px; height: 12.67px; left: 2px; top: 1.33px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                      </div>
+                      <div style="width: 97.28px; height: 21px; position: relative">
+                        <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Rancho Gomes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 197.75px; height: 49px; left: 413.09px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">434.931.761-44</div>
+                  </div>
+                  <div style="width: 174.67px; height: 49px; left: 610.84px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">155</div>
+                  </div>
+                  <div style="width: 114.22px; height: 49px; left: 785.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">47</div>
+                  </div>
+                  <div style="width: 147.69px; height: 49px; left: 899.73px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">2489</div>
+                  </div>
+                  <div style="width: 240.45px; height: 49px; left: 1047.42px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">12111</div>
+                  </div>
+                  <div style="width: 141.52px; height: 49px; left: 1287.88px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                  <div style="width: 82.61px; height: 49px; left: 1429.39px; top: 0px; position: absolute; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                </div>
+                <div style="width: 1512px; height: 49px; left: 0px; top: 147px; position: absolute">
+                  <div style="width: 171.52px; height: 49px; left: 0px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 16px; height: 16px; left: 77.50px; top: 15.50px; position: absolute; background: #F3F3F5; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); border-radius: 4px; border: 1px rgba(0, 0, 0, 0.10) solid"></div>
+                  </div>
+                  <div style="width: 241.58px; height: 49px; left: 171.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 216.58px; height: 21px; left: 12.50px; top: 14px; position: absolute; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                      <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+                        <div style="width: 4px; height: 6px; left: 6px; top: 8px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                        <div style="width: 12px; height: 12.67px; left: 2px; top: 1.33px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                      </div>
+                      <div style="width: 101.95px; height: 21px; position: relative">
+                        <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sítio dos Santos</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 197.75px; height: 49px; left: 413.09px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">73346234/0001-60</div>
+                  </div>
+                  <div style="width: 174.67px; height: 49px; left: 610.84px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">169</div>
+                  </div>
+                  <div style="width: 114.22px; height: 49px; left: 785.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">66</div>
+                  </div>
+                  <div style="width: 147.69px; height: 49px; left: 899.73px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">8771</div>
+                  </div>
+                  <div style="width: 240.45px; height: 49px; left: 1047.42px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">17299</div>
+                  </div>
+                  <div style="width: 141.52px; height: 49px; left: 1287.88px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                  <div style="width: 82.61px; height: 49px; left: 1429.39px; top: 0px; position: absolute; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                </div>
+                <div style="width: 1512px; height: 49px; left: 0px; top: 196px; position: absolute">
+                  <div style="width: 171.52px; height: 49px; left: 0px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 16px; height: 16px; left: 77.50px; top: 15.50px; position: absolute; background: #04AF9E; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); border-radius: 4px; outline: 1px #04AF9E solid; outline-offset: -1px">
+                      <div style="width: 14px; height: 14px; left: 1px; top: 1px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+                        <div style="width: 14px; height: 14px; position: relative; overflow: hidden">
+                          <div style="width: 9.33px; height: 6.42px; left: 2.33px; top: 3.50px; position: absolute; outline: 1.17px white solid; outline-offset: -0.58px"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 241.58px; height: 49px; left: 171.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 216.58px; height: 21px; left: 12.50px; top: 14px; position: absolute; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                      <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+                        <div style="width: 4px; height: 6px; left: 6px; top: 8px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                        <div style="width: 12px; height: 12.67px; left: 2px; top: 1.33px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                      </div>
+                      <div style="width: 120.64px; height: 21px; position: relative">
+                        <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Propriedade Rocha</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 197.75px; height: 49px; left: 413.09px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">61609969/0001-54</div>
+                  </div>
+                  <div style="width: 174.67px; height: 49px; left: 610.84px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">105</div>
+                  </div>
+                  <div style="width: 114.22px; height: 49px; left: 785.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">66</div>
+                  </div>
+                  <div style="width: 147.69px; height: 49px; left: 899.73px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">3319</div>
+                  </div>
+                  <div style="width: 240.45px; height: 49px; left: 1047.42px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">8950</div>
+                  </div>
+                  <div style="width: 141.52px; height: 49px; left: 1287.88px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                  <div style="width: 82.61px; height: 49px; left: 1429.39px; top: 0px; position: absolute; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                </div>
+                <div style="width: 1512px; height: 49px; left: 0px; top: 245px; position: absolute">
+                  <div style="width: 171.52px; height: 49px; left: 0px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 16px; height: 16px; left: 77.50px; top: 15.50px; position: absolute; background: #04AF9E; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); border-radius: 4px; outline: 1px #04AF9E solid; outline-offset: -1px">
+                      <div style="width: 14px; height: 14px; left: 1px; top: 1px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+                        <div style="width: 14px; height: 14px; position: relative; overflow: hidden">
+                          <div style="width: 9.33px; height: 6.42px; left: 2.33px; top: 3.50px; position: absolute; outline: 1.17px white solid; outline-offset: -0.58px"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 241.58px; height: 49px; left: 171.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 216.58px; height: 21px; left: 12.50px; top: 14px; position: absolute; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                      <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+                        <div style="width: 4px; height: 6px; left: 6px; top: 8px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                        <div style="width: 12px; height: 12.67px; left: 2px; top: 1.33px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                      </div>
+                      <div style="width: 97.28px; height: 21px; position: relative">
+                        <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Rancho Gomes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 197.75px; height: 49px; left: 413.09px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">69462843/0001-16</div>
+                  </div>
+                  <div style="width: 174.67px; height: 49px; left: 610.84px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">197</div>
+                  </div>
+                  <div style="width: 114.22px; height: 49px; left: 785.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">47</div>
+                  </div>
+                  <div style="width: 147.69px; height: 49px; left: 899.73px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">8661</div>
+                  </div>
+                  <div style="width: 240.45px; height: 49px; left: 1047.42px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">64242</div>
+                  </div>
+                  <div style="width: 141.52px; height: 49px; left: 1287.88px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                  <div style="width: 82.61px; height: 49px; left: 1429.39px; top: 0px; position: absolute; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #EF4444; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Não</div>
+                  </div>
+                </div>
+                <div style="width: 1512px; height: 49px; left: 0px; top: 294px; position: absolute">
+                  <div style="width: 171.52px; height: 49px; left: 0px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 16px; height: 16px; left: 77.50px; top: 15.50px; position: absolute; background: #04AF9E; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); border-radius: 4px; outline: 1px #04AF9E solid; outline-offset: -1px">
+                      <div style="width: 14px; height: 14px; left: 1px; top: 1px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+                        <div style="width: 14px; height: 14px; position: relative; overflow: hidden">
+                          <div style="width: 9.33px; height: 6.42px; left: 2.33px; top: 3.50px; position: absolute; outline: 1.17px white solid; outline-offset: -0.58px"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 241.58px; height: 49px; left: 171.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 216.58px; height: 21px; left: 12.50px; top: 14px; position: absolute; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                      <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+                        <div style="width: 4px; height: 6px; left: 6px; top: 8px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                        <div style="width: 12px; height: 12.67px; left: 2px; top: 1.33px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                      </div>
+                      <div style="width: 98.08px; height: 21px; position: relative">
+                        <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Fazenda Souza</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 197.75px; height: 49px; left: 413.09px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">67552035/0001-47</div>
+                  </div>
+                  <div style="width: 174.67px; height: 49px; left: 610.84px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">105</div>
+                  </div>
+                  <div style="width: 114.22px; height: 49px; left: 785.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">47</div>
+                  </div>
+                  <div style="width: 147.69px; height: 49px; left: 899.73px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">4888</div>
+                  </div>
+                  <div style="width: 240.45px; height: 49px; left: 1047.42px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">27727</div>
+                  </div>
+                  <div style="width: 141.52px; height: 49px; left: 1287.88px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                  <div style="width: 82.61px; height: 49px; left: 1429.39px; top: 0px; position: absolute; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                </div>
+                <div style="width: 1512px; height: 49px; left: 0px; top: 343px; position: absolute">
+                  <div style="width: 171.52px; height: 49px; left: 0px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 16px; height: 16px; left: 77.50px; top: 15.50px; position: absolute; background: #04AF9E; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); border-radius: 4px; outline: 1px #04AF9E solid; outline-offset: -1px">
+                      <div style="width: 14px; height: 14px; left: 1px; top: 1px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+                        <div style="width: 14px; height: 14px; position: relative; overflow: hidden">
+                          <div style="width: 9.33px; height: 6.42px; left: 2.33px; top: 3.50px; position: absolute; outline: 1.17px white solid; outline-offset: -0.58px"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 241.58px; height: 49px; left: 171.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 216.58px; height: 21px; left: 12.50px; top: 14px; position: absolute; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                      <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+                        <div style="width: 4px; height: 6px; left: 6px; top: 8px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                        <div style="width: 12px; height: 12.67px; left: 2px; top: 1.33px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                      </div>
+                      <div style="width: 101.95px; height: 21px; position: relative">
+                        <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sítio dos Santos</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 197.75px; height: 49px; left: 413.09px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">40728595/0001-39</div>
+                  </div>
+                  <div style="width: 174.67px; height: 49px; left: 610.84px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">197</div>
+                  </div>
+                  <div style="width: 114.22px; height: 49px; left: 785.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">66</div>
+                  </div>
+                  <div style="width: 147.69px; height: 49px; left: 899.73px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">4201</div>
+                  </div>
+                  <div style="width: 240.45px; height: 49px; left: 1047.42px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">7701</div>
+                  </div>
+                  <div style="width: 141.52px; height: 49px; left: 1287.88px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                  <div style="width: 82.61px; height: 49px; left: 1429.39px; top: 0px; position: absolute; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                </div>
+                <div style="width: 1512px; height: 49px; left: 0px; top: 392px; position: absolute">
+                  <div style="width: 171.52px; height: 49px; left: 0px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 16px; height: 16px; left: 77.50px; top: 15.50px; position: absolute; background: #04AF9E; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); border-radius: 4px; outline: 1px #04AF9E solid; outline-offset: -1px">
+                      <div style="width: 14px; height: 14px; left: 1px; top: 1px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+                        <div style="width: 14px; height: 14px; position: relative; overflow: hidden">
+                          <div style="width: 9.33px; height: 6.42px; left: 2.33px; top: 3.50px; position: absolute; outline: 1.17px white solid; outline-offset: -0.58px"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 241.58px; height: 49px; left: 171.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 216.58px; height: 21px; left: 12.50px; top: 14px; position: absolute; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                      <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+                        <div style="width: 4px; height: 6px; left: 6px; top: 8px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                        <div style="width: 12px; height: 12.67px; left: 2px; top: 1.33px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                      </div>
+                      <div style="width: 98.08px; height: 21px; position: relative">
+                        <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Fazenda Souza</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 197.75px; height: 49px; left: 413.09px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">422.163.209-68</div>
+                  </div>
+                  <div style="width: 174.67px; height: 49px; left: 610.84px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">155</div>
+                  </div>
+                  <div style="width: 114.22px; height: 49px; left: 785.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">66</div>
+                  </div>
+                  <div style="width: 147.69px; height: 49px; left: 899.73px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">4396</div>
+                  </div>
+                  <div style="width: 240.45px; height: 49px; left: 1047.42px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">34829</div>
+                  </div>
+                  <div style="width: 141.52px; height: 49px; left: 1287.88px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                  <div style="width: 82.61px; height: 49px; left: 1429.39px; top: 0px; position: absolute; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                </div>
+                <div style="width: 1512px; height: 49px; left: 0px; top: 441px; position: absolute">
+                  <div style="width: 171.52px; height: 49px; left: 0px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 16px; height: 16px; left: 77.50px; top: 15.50px; position: absolute; background: #04AF9E; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); border-radius: 4px; outline: 1px #04AF9E solid; outline-offset: -1px">
+                      <div style="width: 14px; height: 14px; left: 1px; top: 1px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+                        <div style="width: 14px; height: 14px; position: relative; overflow: hidden">
+                          <div style="width: 9.33px; height: 6.42px; left: 2.33px; top: 3.50px; position: absolute; outline: 1.17px white solid; outline-offset: -0.58px"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 241.58px; height: 49px; left: 171.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="width: 216.58px; height: 21px; left: 12.50px; top: 14px; position: absolute; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                      <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+                        <div style="width: 4px; height: 6px; left: 6px; top: 8px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                        <div style="width: 12px; height: 12.67px; left: 2px; top: 1.33px; position: absolute; background: #4D4D4D; outline: 1.33px #4D4D4D solid; outline-offset: -0.67px"></div>
+                      </div>
+                      <div style="width: 98.08px; height: 21px; position: relative">
+                        <div style="left: 0px; top: 0px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Fazenda Souza</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 197.75px; height: 49px; left: 413.09px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">946.398.616-29</div>
+                  </div>
+                  <div style="width: 174.67px; height: 49px; left: 610.84px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">156</div>
+                  </div>
+                  <div style="width: 114.22px; height: 49px; left: 785.52px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">83</div>
+                  </div>
+                  <div style="width: 147.69px; height: 49px; left: 899.73px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">8819</div>
+                  </div>
+                  <div style="width: 240.45px; height: 49px; left: 1047.42px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #0A0A0A; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">85563</div>
+                  </div>
+                  <div style="width: 141.52px; height: 49px; left: 1287.88px; top: 0px; position: absolute; border-right: 1px #CACACA solid; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                  <div style="width: 82.61px; height: 49px; left: 1429.39px; top: 0px; position: absolute; border-bottom: 1px #CACACA solid">
+                    <div style="left: 12.50px; top: 14px; position: absolute; color: #04AF9E; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Sim</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="align-self: stretch; height: 32px; justify-content: space-between; align-items: center; display: inline-flex">
+            <div style="width: 241.34px; height: 21px; position: relative">
+              <div style="width: 242px; left: 0px; top: 0px; position: absolute; color: #4A5565; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Mostrando 1 a 10 de 109 propriedades</div>
+            </div>
+            <div style="width: 295.23px; height: 32px; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+              <div style="width: 78.38px; height: 32px; padding-left: 12px; padding-right: 12px; opacity: 0.50; background: white; border-radius: 8px; outline: 1px rgba(0, 0, 0, 0.10) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 6px; display: flex">
+                <div style="color: #0A0A0A; font-size: 14px; font-family: Arial; font-weight: 400; line-height: 20px; word-wrap: break-word">Anterior</div>
+              </div>
+              <div style="flex: 1 1 0; height: 32px; justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                <div style="width: 29.64px; height: 32px; padding-left: 12px; padding-right: 12px; background: #04AF9E; border-radius: 8px; justify-content: center; align-items: center; gap: 6px; display: flex">
+                  <div style="color: white; font-size: 14px; font-family: Arial; font-weight: 400; line-height: 20px; word-wrap: break-word">1</div>
+                </div>
+                <div style="width: 33.78px; height: 32px; padding-left: 12px; padding-right: 12px; background: white; border-radius: 8px; outline: 1px rgba(0, 0, 0, 0.10) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 6px; display: flex">
+                  <div style="color: #0A0A0A; font-size: 14px; font-family: Arial; font-weight: 400; line-height: 20px; word-wrap: break-word">2</div>
+                </div>
+                <div style="width: 10.41px; height: 24px; position: relative">
+                  <div style="left: 0px; top: -2px; position: absolute; color: #0A0A0A; font-size: 16px; font-family: Arial; font-weight: 400; line-height: 24px; word-wrap: break-word">...</div>
+                </div>
+                <div style="flex: 1 1 0; height: 32px; padding-left: 12px; padding-right: 12px; background: white; border-radius: 8px; outline: 1px rgba(0, 0, 0, 0.10) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 6px; display: flex">
+                  <div style="color: #0A0A0A; font-size: 14px; font-family: Arial; font-weight: 400; line-height: 20px; word-wrap: break-word">11</div>
+                </div>
+              </div>
+              <div style="width: 77.77px; height: 32px; padding-left: 12px; padding-right: 12px; background: white; border-radius: 8px; outline: 1px rgba(0, 0, 0, 0.10) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 6px; display: flex">
+                <div style="color: #0A0A0A; font-size: 14px; font-family: Arial; font-weight: 400; line-height: 20px; word-wrap: break-word">Próxima</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="width: 1594px; height: 64px; padding-left: 24px; padding-right: 24px; left: 0px; top: 0px; position: absolute; background: #04AF9E; box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.10); justify-content: space-between; align-items: center; display: inline-flex">
+    <div style="width: 143.02px; height: 32px; justify-content: flex-start; align-items: center; gap: 16px; display: flex">
+      <div style="width: 24px; height: 24px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+        <div style="align-self: stretch; height: 24px; position: relative; overflow: hidden"></div>
+      </div>
+      <img style="flex: 1 1 0; height: 32px; position: relative" src="https://placehold.co/103x32" />
+    </div>
+    <div style="width: 147.17px; height: 21px; justify-content: flex-start; align-items: center; gap: 12px; display: flex">
+      <div style="flex: 1 1 0; height: 21px; position: relative">
+        <div style="left: 0px; top: 0px; position: absolute; color: white; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 21px; word-wrap: break-word">Amaral Amarantes</div>
+      </div>
+      <div style="width: 20px; height: 20px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+        <div style="align-self: stretch; height: 20px; position: relative; overflow: hidden">
+          <div style="width: 4.17px; height: 8.33px; left: 13.33px; top: 5.83px; position: absolute; outline: 1.67px white solid; outline-offset: -0.83px"></div>
+          <div style="width: 5px; height: 15px; left: 2.50px; top: 2.50px; position: absolute; outline: 1.67px white solid; outline-offset: -0.83px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
