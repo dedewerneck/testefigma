@@ -1,0 +1,5238 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledPagetitlespan = styled.span`
+  color: #04AF9E;
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 48px;
+  word-wrap: break-word;
+`;
+
+const StyledLocationfilterspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector = styled.div`
+  width: 8px;
+  height: 4px;
+  left: 4px;
+  top: 6px;
+  position: absolute;
+  outline: 1.33px #717182 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDatefilterspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector01 = styled.div`
+  width: 8px;
+  height: 4px;
+  left: 4px;
+  top: 6px;
+  position: absolute;
+  outline: 1.33px #717182 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledStatuslabelspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledVector02 = styled.div`
+  width: 9.33px;
+  height: 6.42px;
+  left: 2.33px;
+  top: 3.50px;
+  position: absolute;
+  outline: 1.17px white solid;
+  outline-offset: -0.58px;
+`;
+
+const StyledStatusnewspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector03 = styled.div`
+  width: 9.33px;
+  height: 6.42px;
+  left: 2.33px;
+  top: 3.50px;
+  position: absolute;
+  outline: 1.17px white solid;
+  outline-offset: -0.58px;
+`;
+
+const StyledStatusreceivedspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector04 = styled.div`
+  width: 9.33px;
+  height: 6.42px;
+  left: 2.33px;
+  top: 3.50px;
+  position: absolute;
+  outline: 1.17px white solid;
+  outline-offset: -0.58px;
+`;
+
+const StyledStatusvalidatedspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector05 = styled.div`
+  width: 9.33px;
+  height: 6.42px;
+  left: 2.33px;
+  top: 3.50px;
+  position: absolute;
+  outline: 1.17px white solid;
+  outline-offset: -0.58px;
+`;
+
+const StyledStatusclosedspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector06 = styled.div`
+  width: 9.33px;
+  height: 6.42px;
+  left: 2.33px;
+  top: 3.50px;
+  position: absolute;
+  outline: 1.17px white solid;
+  outline-offset: -0.58px;
+`;
+
+const StyledStatusremovedspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector07 = styled.div`
+  width: 12px;
+  height: 12px;
+  left: 2px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector08 = styled.div`
+  width: 3.33px;
+  height: 3.33px;
+  left: 2px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledRecovertripbuttonspan = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector10 = styled.div`
+  width: 12px;
+  height: 4px;
+  left: 2px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector11 = styled.div`
+  width: 6.67px;
+  height: 3.33px;
+  left: 4.67px;
+  top: 6.67px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledReceivetripbuttonspan = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector14 = styled.div`
+  width: 9.33px;
+  height: 10.67px;
+  left: 3.33px;
+  top: 4px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector16 = styled.div`
+  width: 5.33px;
+  height: 2.67px;
+  left: 5.33px;
+  top: 1.33px;
+  position: absolute;
+  outline: 1.33px white solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledRemovetripbuttonspan = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledManualtripbuttonspan = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTableheaderselectspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTableheaderstatusspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTableheadertripspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTableheaderdriverspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTableheadertransporterspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTableheadertruckplatespan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTableheadertrailerplatespan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTableheaderroutespan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton07 = styled.button`
+  width: 16px;
+  height: 16px;
+  left: 54.11px;
+  top: 18.50px;
+  position: absolute;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const StyledStatusbadgenewspan = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18.67px;
+  word-wrap: break-word;
+`;
+
+const StyledTrip200233604400span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector19 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector20 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDriverjoosilvasantosspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector21 = styled.div`
+  width: 8px;
+  height: 9.33px;
+  left: 1.33px;
+  top: 2.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector23 = styled.div`
+  width: 5.33px;
+  height: 6.67px;
+  left: 9.33px;
+  top: 5.33px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector24 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 10px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector25 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 3.33px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledTransporter077span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTruckplateabc3e82span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTrailerplatexyz5678span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRoute2231rspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector26 = styled.div`
+  width: 15px;
+  height: 16.67px;
+  left: 2.50px;
+  top: 0.83px;
+  position: absolute;
+  background: #27C840;
+`;
+
+const StyledPrimitivebutton08 = styled.button`
+  width: 16px;
+  height: 16px;
+  left: 54.11px;
+  top: 18.50px;
+  position: absolute;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const StyledStatusbadgenew01span = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18.67px;
+  word-wrap: break-word;
+`;
+
+const StyledTrip200233604401span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector27 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector28 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDrivermariaoliveiracostaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector29 = styled.div`
+  width: 8px;
+  height: 9.33px;
+  left: 1.33px;
+  top: 2.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector31 = styled.div`
+  width: 5.33px;
+  height: 6.67px;
+  left: 9.33px;
+  top: 5.33px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector32 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 10px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector33 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 3.33px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledTransporter078span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTruckplatedef4f93span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTrailerplatewxy9876span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRoute2232rspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector34 = styled.div`
+  width: 15px;
+  height: 16.67px;
+  left: 2.50px;
+  top: 0.83px;
+  position: absolute;
+  background: #F44336;
+`;
+
+const StyledPrimitivebutton09 = styled.button`
+  width: 16px;
+  height: 16px;
+  left: 54.11px;
+  top: 18.50px;
+  position: absolute;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const StyledStatusbadgenew02span = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18.67px;
+  word-wrap: break-word;
+`;
+
+const StyledTrip200233604402span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector35 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector36 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDrivercarloseduardolimaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector37 = styled.div`
+  width: 8px;
+  height: 9.33px;
+  left: 1.33px;
+  top: 2.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector39 = styled.div`
+  width: 5.33px;
+  height: 6.67px;
+  left: 9.33px;
+  top: 5.33px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector40 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 10px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector41 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 3.33px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledTransporter079span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTruckplateghi5g04span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTrailerplatevut5432span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRoute2233rspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector42 = styled.div`
+  width: 15px;
+  height: 16.67px;
+  left: 2.50px;
+  top: 0.83px;
+  position: absolute;
+  background: #27C840;
+`;
+
+const StyledPrimitivebutton10 = styled.button`
+  width: 16px;
+  height: 16px;
+  left: 54.11px;
+  top: 18.50px;
+  position: absolute;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const StyledStatusbadgenew03span = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18.67px;
+  word-wrap: break-word;
+`;
+
+const StyledTrip200233604403span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector43 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector44 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDriveranapaulaferreiraspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector45 = styled.div`
+  width: 8px;
+  height: 9.33px;
+  left: 1.33px;
+  top: 2.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector47 = styled.div`
+  width: 5.33px;
+  height: 6.67px;
+  left: 9.33px;
+  top: 5.33px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector48 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 10px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector49 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 3.33px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledTransporter080span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTruckplatejkl6h15span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTrailerplatesrq3210span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRoute2234rspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector50 = styled.div`
+  width: 15px;
+  height: 16.67px;
+  left: 2.50px;
+  top: 0.83px;
+  position: absolute;
+  background: #27C840;
+`;
+
+const StyledPrimitivebutton11 = styled.button`
+  width: 16px;
+  height: 16px;
+  left: 54.11px;
+  top: 18.50px;
+  position: absolute;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const StyledStatusbadgenew04span = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18.67px;
+  word-wrap: break-word;
+`;
+
+const StyledTrip200233604404span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector51 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector52 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDriverrobertoalvessouzaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector53 = styled.div`
+  width: 8px;
+  height: 9.33px;
+  left: 1.33px;
+  top: 2.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector55 = styled.div`
+  width: 5.33px;
+  height: 6.67px;
+  left: 9.33px;
+  top: 5.33px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector56 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 10px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector57 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 3.33px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledTransporter081span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTruckplatemno7i26span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTrailerplatepon1098span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRoute2235rspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector58 = styled.div`
+  width: 15px;
+  height: 16.67px;
+  left: 2.50px;
+  top: 0.83px;
+  position: absolute;
+  background: #F44336;
+`;
+
+const StyledPrimitivebutton12 = styled.button`
+  width: 16px;
+  height: 16px;
+  left: 54.11px;
+  top: 18.50px;
+  position: absolute;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const StyledStatusbadgereceivedspan = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18.67px;
+  word-wrap: break-word;
+`;
+
+const StyledTrip200233604405span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector59 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector60 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDriverpaulacristinamendesspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector61 = styled.div`
+  width: 8px;
+  height: 9.33px;
+  left: 1.33px;
+  top: 2.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector63 = styled.div`
+  width: 5.33px;
+  height: 6.67px;
+  left: 9.33px;
+  top: 5.33px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector64 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 10px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector65 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 3.33px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledTransporter082span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTruckplatepqr8j37span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTrailerplatemlk7654span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRoute2236rspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector66 = styled.div`
+  width: 15px;
+  height: 16.67px;
+  left: 2.50px;
+  top: 0.83px;
+  position: absolute;
+  background: #27C840;
+`;
+
+const StyledPrimitivebutton13 = styled.button`
+  width: 16px;
+  height: 16px;
+  left: 54.11px;
+  top: 18.50px;
+  position: absolute;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const StyledStatusbadgereceived01span = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18.67px;
+  word-wrap: break-word;
+`;
+
+const StyledTrip200233604406span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector67 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector68 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDriverfernandojossilvaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector69 = styled.div`
+  width: 8px;
+  height: 9.33px;
+  left: 1.33px;
+  top: 2.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector71 = styled.div`
+  width: 5.33px;
+  height: 6.67px;
+  left: 9.33px;
+  top: 5.33px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector72 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 10px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector73 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 3.33px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledTransporter083span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTruckplatestu9k48span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTrailerplatejih4321span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRoute2237rspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector74 = styled.div`
+  width: 15px;
+  height: 16.67px;
+  left: 2.50px;
+  top: 0.83px;
+  position: absolute;
+  background: #F44336;
+`;
+
+const StyledPrimitivebutton14 = styled.button`
+  width: 16px;
+  height: 16px;
+  left: 54.11px;
+  top: 18.50px;
+  position: absolute;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const StyledStatusbadgereceived02span = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18.67px;
+  word-wrap: break-word;
+`;
+
+const StyledTrip200233604407span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector75 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector76 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDriverlucianasantosoliveiraspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector77 = styled.div`
+  width: 8px;
+  height: 9.33px;
+  left: 1.33px;
+  top: 2.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector79 = styled.div`
+  width: 5.33px;
+  height: 6.67px;
+  left: 9.33px;
+  top: 5.33px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector80 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 10px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector81 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 3.33px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledTransporter084span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTruckplatevwx0l59span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTrailerplategfe8765span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRoute2238rspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector82 = styled.div`
+  width: 15px;
+  height: 16.67px;
+  left: 2.50px;
+  top: 0.83px;
+  position: absolute;
+  background: #27C840;
+`;
+
+const StyledPrimitivebutton15 = styled.button`
+  width: 16px;
+  height: 16px;
+  left: 54.11px;
+  top: 18.50px;
+  position: absolute;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const StyledStatusbadgevalidatedspan = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18.67px;
+  word-wrap: break-word;
+`;
+
+const StyledTrip200233604408span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector83 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector84 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDrivermarcosantoniocostaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector85 = styled.div`
+  width: 8px;
+  height: 9.33px;
+  left: 1.33px;
+  top: 2.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector87 = styled.div`
+  width: 5.33px;
+  height: 6.67px;
+  left: 9.33px;
+  top: 5.33px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector88 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 10px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector89 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 3.33px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledTransporter085span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTruckplateyza1m60span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTrailerplatedcb2109span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRoute2239rspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector90 = styled.div`
+  width: 15px;
+  height: 16.67px;
+  left: 2.50px;
+  top: 0.83px;
+  position: absolute;
+  background: #27C840;
+`;
+
+const StyledPrimitivebutton16 = styled.button`
+  width: 16px;
+  height: 16px;
+  left: 54.11px;
+  top: 18.50px;
+  position: absolute;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const StyledStatusbadgevalidated01span = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18.67px;
+  word-wrap: break-word;
+`;
+
+const StyledTrip200233604409span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector91 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector92 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDriversandrareginalimaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector93 = styled.div`
+  width: 8px;
+  height: 9.33px;
+  left: 1.33px;
+  top: 2.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector95 = styled.div`
+  width: 5.33px;
+  height: 6.67px;
+  left: 9.33px;
+  top: 5.33px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector96 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 10px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector97 = styled.div`
+  width: 2.67px;
+  height: 2.67px;
+  left: 3.33px;
+  top: 10.67px;
+  position: absolute;
+  outline: 1.33px #6A7282 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledTransporter086span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTruckplatebcd2n71span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTrailerplateazy6543span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledRoute2240rspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector98 = styled.div`
+  width: 15px;
+  height: 16.67px;
+  left: 2.50px;
+  top: 0.83px;
+  position: absolute;
+  background: #F44336;
+`;
+
+const StyledItemsperpagelabelspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledItemsperpagevaluespan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector99 = styled.div`
+  width: 8px;
+  height: 4px;
+  left: 4px;
+  top: 6px;
+  position: absolute;
+  outline: 1.33px #717182 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledPageinfospan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector100 = styled.div`
+  width: 4px;
+  height: 8px;
+  left: 6px;
+  top: 4px;
+  position: absolute;
+  outline: 1.33px #0A0A0A solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector101 = styled.div`
+  width: 4px;
+  height: 8px;
+  left: 6px;
+  top: 4px;
+  position: absolute;
+  outline: 1.33px #0A0A0A solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledImageWithFallback = styled.img`
+  flex: 1 1 0;
+  height: 32px;
+  position: relative;
+`;
+
+const StyledUsernamespan = styled.span`
+  color: white;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 23.33px;
+  word-wrap: break-word;
+`;
+
+const StyledVector105 = styled.div`
+  width: 5px;
+  height: 10px;
+  left: 16px;
+  top: 7px;
+  position: absolute;
+  outline: 2px white solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector107 = styled.div`
+  width: 6px;
+  height: 18px;
+  left: 3px;
+  top: 3px;
+  position: absolute;
+  outline: 2px white solid;
+  outline-offset: -1px;
+`;
+
+const StyledHeading1 = styled.div`
+  width: 271.61px;
+  height: 48px;
+  position: relative;
+`;
+
+const StyledPrimitivespan = styled.div`
+  width: 211.78px;
+  height: 20px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivespan01 = styled.div`
+  width: 74.88px;
+  height: 20px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivelabel = styled.div`
+  width: 48.27px;
+  height: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivelabel01 = styled.div`
+  flex: 1 1 0;
+  height: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivelabel02 = styled.div`
+  flex: 1 1 0;
+  height: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivelabel03 = styled.div`
+  flex: 1 1 0;
+  height: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivelabel04 = styled.div`
+  flex: 1 1 0;
+  height: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivelabel05 = styled.div`
+  flex: 1 1 0;
+  height: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledTableHead = styled.div`
+  width: 116.73px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableHead01 = styled.div`
+  width: 159.75px;
+  height: 40px;
+  left: 116.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableHead02 = styled.div`
+  width: 146.97px;
+  height: 40px;
+  left: 276.48px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableHead03 = styled.div`
+  width: 400.28px;
+  height: 40px;
+  left: 423.45px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableHead04 = styled.div`
+  width: 249.36px;
+  height: 40px;
+  left: 823.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableHead05 = styled.div`
+  width: 167.31px;
+  height: 40px;
+  left: 1073.09px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableHead06 = styled.div`
+  width: 156.91px;
+  height: 40px;
+  left: 1240.41px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableHead07 = styled.div`
+  width: 114.69px;
+  height: 40px;
+  left: 1397.31px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledBadge = styled.div`
+  width: 102px;
+  height: 27px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #CDDC39;
+  overflow: hidden;
+  border-radius: 16px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+`;
+
+const StyledTableCell02 = styled.div`
+  width: 146.97px;
+  height: 53px;
+  left: 276.48px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText = styled.div`
+  width: 222.62px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText01 = styled.div`
+  width: 143.98px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell05 = styled.div`
+  width: 167.31px;
+  height: 53px;
+  left: 1073.09px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell06 = styled.div`
+  width: 156.91px;
+  height: 53px;
+  left: 1240.41px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText02 = styled.div`
+  width: 41.27px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledBadge01 = styled.div`
+  width: 102px;
+  height: 27px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #CDDC39;
+  overflow: hidden;
+  border-radius: 16px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+`;
+
+const StyledTableCell10 = styled.div`
+  width: 146.97px;
+  height: 53px;
+  left: 276.48px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText03 = styled.div`
+  width: 237.38px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText04 = styled.div`
+  width: 144.75px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell13 = styled.div`
+  width: 167.31px;
+  height: 53px;
+  left: 1073.09px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell14 = styled.div`
+  width: 156.91px;
+  height: 53px;
+  left: 1240.41px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText05 = styled.div`
+  width: 41.27px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledBadge02 = styled.div`
+  width: 102px;
+  height: 27px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #CDDC39;
+  overflow: hidden;
+  border-radius: 16px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+`;
+
+const StyledTableCell18 = styled.div`
+  width: 146.97px;
+  height: 53px;
+  left: 276.48px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText06 = styled.div`
+  width: 242.06px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText07 = styled.div`
+  width: 144.75px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell21 = styled.div`
+  width: 167.31px;
+  height: 53px;
+  left: 1073.09px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell22 = styled.div`
+  width: 156.91px;
+  height: 53px;
+  left: 1240.41px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText08 = styled.div`
+  width: 41.27px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledBadge03 = styled.div`
+  width: 102px;
+  height: 27px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #CDDC39;
+  overflow: hidden;
+  border-radius: 16px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+`;
+
+const StyledTableCell26 = styled.div`
+  width: 146.97px;
+  height: 53px;
+  left: 276.48px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText09 = styled.div`
+  width: 227.28px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText10 = styled.div`
+  width: 143.98px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell29 = styled.div`
+  width: 167.31px;
+  height: 53px;
+  left: 1073.09px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell30 = styled.div`
+  width: 156.91px;
+  height: 53px;
+  left: 1240.41px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText11 = styled.div`
+  width: 41.27px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledBadge04 = styled.div`
+  width: 102px;
+  height: 27px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #CDDC39;
+  overflow: hidden;
+  border-radius: 16px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+`;
+
+const StyledTableCell34 = styled.div`
+  width: 146.97px;
+  height: 53px;
+  left: 276.48px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText12 = styled.div`
+  width: 241.30px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText13 = styled.div`
+  width: 143.19px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell37 = styled.div`
+  width: 167.31px;
+  height: 53px;
+  left: 1073.09px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell38 = styled.div`
+  width: 156.91px;
+  height: 53px;
+  left: 1240.41px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText14 = styled.div`
+  width: 41.27px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledBadge05 = styled.div`
+  width: 102px;
+  height: 27px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #27C840;
+  overflow: hidden;
+  border-radius: 16px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+`;
+
+const StyledTableCell42 = styled.div`
+  width: 146.97px;
+  height: 53px;
+  left: 276.48px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText15 = styled.div`
+  width: 251.41px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText16 = styled.div`
+  width: 145.53px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell45 = styled.div`
+  width: 167.31px;
+  height: 53px;
+  left: 1073.09px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell46 = styled.div`
+  width: 156.91px;
+  height: 53px;
+  left: 1240.41px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText17 = styled.div`
+  width: 41.27px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledBadge06 = styled.div`
+  width: 102px;
+  height: 27px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #27C840;
+  overflow: hidden;
+  border-radius: 16px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+`;
+
+const StyledTableCell50 = styled.div`
+  width: 146.97px;
+  height: 53px;
+  left: 276.48px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText18 = styled.div`
+  width: 238.19px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText19 = styled.div`
+  width: 144.75px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell53 = styled.div`
+  width: 167.31px;
+  height: 53px;
+  left: 1073.09px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell54 = styled.div`
+  width: 156.91px;
+  height: 53px;
+  left: 1240.41px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText20 = styled.div`
+  width: 41.27px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledBadge07 = styled.div`
+  width: 102px;
+  height: 27px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #27C840;
+  overflow: hidden;
+  border-radius: 16px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+`;
+
+const StyledTableCell58 = styled.div`
+  width: 146.97px;
+  height: 53px;
+  left: 276.48px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText21 = styled.div`
+  width: 258.42px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText22 = styled.div`
+  width: 138.53px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell61 = styled.div`
+  width: 167.31px;
+  height: 53px;
+  left: 1073.09px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell62 = styled.div`
+  width: 156.91px;
+  height: 53px;
+  left: 1240.41px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText23 = styled.div`
+  width: 41.27px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledBadge08 = styled.div`
+  width: 102px;
+  height: 27px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #04AF9E;
+  overflow: hidden;
+  border-radius: 16px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+`;
+
+const StyledTableCell66 = styled.div`
+  width: 146.97px;
+  height: 53px;
+  left: 276.48px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText24 = styled.div`
+  width: 247.52px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText25 = styled.div`
+  width: 141.64px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell69 = styled.div`
+  width: 167.31px;
+  height: 53px;
+  left: 1073.09px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell70 = styled.div`
+  width: 156.91px;
+  height: 53px;
+  left: 1240.41px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText26 = styled.div`
+  width: 41.27px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledBadge09 = styled.div`
+  width: 102px;
+  height: 27px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #04AF9E;
+  overflow: hidden;
+  border-radius: 16px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+`;
+
+const StyledTableCell74 = styled.div`
+  width: 146.97px;
+  height: 53px;
+  left: 276.48px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText27 = styled.div`
+  width: 238.19px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText28 = styled.div`
+  width: 143.98px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell77 = styled.div`
+  width: 167.31px;
+  height: 53px;
+  left: 1073.09px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell78 = styled.div`
+  width: 156.91px;
+  height: 53px;
+  left: 1240.41px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledText29 = styled.div`
+  width: 41.27px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText30 = styled.div`
+  flex: 1 1 0;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledPrimitivespan07 = styled.div`
+  width: 14px;
+  height: 20px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledText31 = styled.div`
+  width: 86.44px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText32 = styled.div`
+  flex: 1 1 0;
+  height: 23.33px;
+  position: relative;
+`;
+
+const StyledIcon = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  opacity: 0.50;
+  overflow: hidden;
+`;
+
+const StyledIcon01 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  opacity: 0.50;
+  overflow: hidden;
+`;
+
+const StyledIcon02 = styled.div`
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon03 = styled.div`
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon04 = styled.div`
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon05 = styled.div`
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon06 = styled.div`
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon07 = styled.div`
+  width: 16px;
+  height: 16px;
+  left: 12.64px;
+  top: 15px;
+  position: absolute;
+  overflow: hidden;
+`;
+
+const StyledIcon08 = styled.div`
+  width: 16px;
+  height: 16px;
+  left: 19.64px;
+  top: 15px;
+  position: absolute;
+  overflow: hidden;
+`;
+
+const StyledIcon09 = styled.div`
+  width: 16px;
+  height: 16px;
+  left: 17.31px;
+  top: 15px;
+  position: absolute;
+  overflow: hidden;
+`;
+
+const StyledIcon10 = styled.div`
+  width: 16px;
+  height: 16px;
+  left: 15.16px;
+  top: 15px;
+  position: absolute;
+  overflow: hidden;
+`;
+
+const StyledTableCell = styled.div`
+  width: 116.73px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledIcon11 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon12 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTravelTable04 = styled.div`
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTableCell08 = styled.div`
+  width: 116.73px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledIcon13 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon14 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTravelTable08 = styled.div`
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTableCell16 = styled.div`
+  width: 116.73px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledIcon15 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon16 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTravelTable12 = styled.div`
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTableCell24 = styled.div`
+  width: 116.73px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledIcon17 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon18 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTravelTable16 = styled.div`
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTableCell32 = styled.div`
+  width: 116.73px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledIcon19 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon20 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTravelTable20 = styled.div`
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTableCell40 = styled.div`
+  width: 116.73px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledIcon21 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon22 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTravelTable24 = styled.div`
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTableCell48 = styled.div`
+  width: 116.73px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledIcon23 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon24 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTravelTable28 = styled.div`
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTableCell56 = styled.div`
+  width: 116.73px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledIcon25 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon26 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTravelTable32 = styled.div`
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTableCell64 = styled.div`
+  width: 116.73px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledIcon27 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon28 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTravelTable36 = styled.div`
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTableCell72 = styled.div`
+  width: 116.73px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledIcon29 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon30 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTravelTable40 = styled.div`
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon31 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  opacity: 0.50;
+  overflow: hidden;
+`;
+
+const StyledIcon32 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon33 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon34 = styled.div`
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon35 = styled.div`
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledContainer = styled.div`
+  align-self: stretch;
+  height: 118px;
+  padding-left: 40px;
+  background: #F5F5F5;
+  box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.10);
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledTableRow = styled.div`
+  width: 1512px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableCell01 = styled.div`
+  width: 159.25px;
+  height: 52px;
+  left: 117.23px;
+  top: 0.50px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledTableCell09 = styled.div`
+  width: 159.25px;
+  height: 52px;
+  left: 117.23px;
+  top: 0.50px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledTableCell17 = styled.div`
+  width: 159.25px;
+  height: 52px;
+  left: 117.23px;
+  top: 0.50px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledTableCell25 = styled.div`
+  width: 159.25px;
+  height: 52px;
+  left: 117.23px;
+  top: 0.50px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledTableCell33 = styled.div`
+  width: 159.25px;
+  height: 52px;
+  left: 117.23px;
+  top: 0.50px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledTableCell41 = styled.div`
+  width: 159.25px;
+  height: 52px;
+  left: 117.23px;
+  top: 0.50px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledTableCell49 = styled.div`
+  width: 159.25px;
+  height: 52px;
+  left: 117.23px;
+  top: 0.50px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledTableCell57 = styled.div`
+  width: 159.25px;
+  height: 52px;
+  left: 117.23px;
+  top: 0.50px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledTableCell65 = styled.div`
+  width: 159.25px;
+  height: 52px;
+  left: 117.23px;
+  top: 0.50px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledTableCell73 = styled.div`
+  width: 159.25px;
+  height: 52px;
+  left: 117.23px;
+  top: 0.50px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton = styled.button`
+  align-self: stretch;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #99A1AF solid;
+  outline-offset: -1px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton01 = styled.button`
+  align-self: stretch;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #99A1AF solid;
+  outline-offset: -1px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivespan02 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivespan03 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivespan04 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivespan05 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivespan06 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledButton = styled.button`
+  width: 180px;
+  height: 46px;
+  position: relative;
+  opacity: 0.50;
+  background: #6A7282;
+  border-radius: 4px;
+`;
+
+const StyledButton01 = styled.button`
+  width: 180px;
+  height: 46px;
+  position: relative;
+  opacity: 0.50;
+  background: #6A7282;
+  border-radius: 4px;
+`;
+
+const StyledButton02 = styled.button`
+  width: 180px;
+  height: 46px;
+  position: relative;
+  opacity: 0.50;
+  background: #6A7282;
+  border-radius: 4px;
+`;
+
+const StyledButton03 = styled.button`
+  width: 164px;
+  height: 46px;
+  position: relative;
+  background: #04AF9E;
+  border-radius: 4px;
+`;
+
+const StyledTravelTable01 = styled.div`
+  width: 383.28px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTravelTable02 = styled.div`
+  width: 232.36px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSlotClone = styled.div`
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledTravelTable05 = styled.div`
+  width: 383.28px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTravelTable06 = styled.div`
+  width: 232.36px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSlotClone01 = styled.div`
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledTravelTable09 = styled.div`
+  width: 383.28px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTravelTable10 = styled.div`
+  width: 232.36px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSlotClone02 = styled.div`
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledTravelTable13 = styled.div`
+  width: 383.28px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTravelTable14 = styled.div`
+  width: 232.36px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSlotClone03 = styled.div`
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledTravelTable17 = styled.div`
+  width: 383.28px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTravelTable18 = styled.div`
+  width: 232.36px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSlotClone04 = styled.div`
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledTravelTable21 = styled.div`
+  width: 383.28px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTravelTable22 = styled.div`
+  width: 232.36px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSlotClone05 = styled.div`
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledTravelTable25 = styled.div`
+  width: 383.28px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTravelTable26 = styled.div`
+  width: 232.36px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSlotClone06 = styled.div`
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledTravelTable29 = styled.div`
+  width: 383.28px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTravelTable30 = styled.div`
+  width: 232.36px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSlotClone07 = styled.div`
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledTravelTable33 = styled.div`
+  width: 383.28px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTravelTable34 = styled.div`
+  width: 232.36px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSlotClone08 = styled.div`
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledTravelTable37 = styled.div`
+  width: 383.28px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTravelTable38 = styled.div`
+  width: 232.36px;
+  height: 20px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSlotClone09 = styled.div`
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledPrimitivebutton17 = styled.button`
+  width: 64px;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: #F3F3F5;
+  border-radius: 8px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledButton04 = styled.button`
+  width: 32px;
+  height: 32px;
+  opacity: 0.50;
+  background: white;
+  border-radius: 8px;
+  outline: 1px rgba(0, 0, 0, 0.10) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledButton05 = styled.button`
+  flex: 1 1 0;
+  height: 32px;
+  background: white;
+  border-radius: 8px;
+  outline: 1px rgba(0, 0, 0, 0.10) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledContainer13 = styled.div`
+  width: 150px;
+  height: 32px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledContainer14 = styled.div`
+  width: 163.39px;
+  height: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledTableHeader = styled.div`
+  width: 1512px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledContainer03 = styled.div`
+  width: 749px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledContainer04 = styled.div`
+  width: 749px;
+  height: 36px;
+  left: 765px;
+  top: 0px;
+  position: absolute;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton02 = styled.button`
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  background: #04AF9E;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton03 = styled.button`
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  background: #04AF9E;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton04 = styled.button`
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  background: #04AF9E;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton05 = styled.button`
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  background: #04AF9E;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton06 = styled.button`
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  background: #04AF9E;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledTravelActions = styled.div`
+  align-self: stretch;
+  height: 46px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledTableCell03 = styled.div`
+  width: 400.28px;
+  height: 53px;
+  left: 423.45px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell04 = styled.div`
+  width: 249.36px;
+  height: 53px;
+  left: 823.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTravelTable03 = styled.div`
+  width: 98.19px;
+  height: 20px;
+  padding-right: 0.02px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTableCell11 = styled.div`
+  width: 400.28px;
+  height: 53px;
+  left: 423.45px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell12 = styled.div`
+  width: 249.36px;
+  height: 53px;
+  left: 823.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTravelTable07 = styled.div`
+  width: 98.19px;
+  height: 20px;
+  padding-right: 0.02px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTableCell19 = styled.div`
+  width: 400.28px;
+  height: 53px;
+  left: 423.45px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell20 = styled.div`
+  width: 249.36px;
+  height: 53px;
+  left: 823.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTravelTable11 = styled.div`
+  width: 98.19px;
+  height: 20px;
+  padding-right: 0.02px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTableCell27 = styled.div`
+  width: 400.28px;
+  height: 53px;
+  left: 423.45px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell28 = styled.div`
+  width: 249.36px;
+  height: 53px;
+  left: 823.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTravelTable15 = styled.div`
+  width: 98.19px;
+  height: 20px;
+  padding-right: 0.02px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTableCell35 = styled.div`
+  width: 400.28px;
+  height: 53px;
+  left: 423.45px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell36 = styled.div`
+  width: 249.36px;
+  height: 53px;
+  left: 823.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTravelTable19 = styled.div`
+  width: 98.19px;
+  height: 20px;
+  padding-right: 0.02px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTableCell43 = styled.div`
+  width: 400.28px;
+  height: 53px;
+  left: 423.45px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell44 = styled.div`
+  width: 249.36px;
+  height: 53px;
+  left: 823.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTravelTable23 = styled.div`
+  width: 98.19px;
+  height: 20px;
+  padding-right: 0.02px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTableCell51 = styled.div`
+  width: 400.28px;
+  height: 53px;
+  left: 423.45px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell52 = styled.div`
+  width: 249.36px;
+  height: 53px;
+  left: 823.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTravelTable27 = styled.div`
+  width: 98.19px;
+  height: 20px;
+  padding-right: 0.02px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTableCell59 = styled.div`
+  width: 400.28px;
+  height: 53px;
+  left: 423.45px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell60 = styled.div`
+  width: 249.36px;
+  height: 53px;
+  left: 823.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTravelTable31 = styled.div`
+  width: 98.19px;
+  height: 20px;
+  padding-right: 0.02px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTableCell67 = styled.div`
+  width: 400.28px;
+  height: 53px;
+  left: 423.45px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell68 = styled.div`
+  width: 249.36px;
+  height: 53px;
+  left: 823.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTravelTable35 = styled.div`
+  width: 98.19px;
+  height: 20px;
+  padding-right: 0.02px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTableCell75 = styled.div`
+  width: 400.28px;
+  height: 53px;
+  left: 423.45px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTableCell76 = styled.div`
+  width: 249.36px;
+  height: 53px;
+  left: 823.73px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #CACACA solid;
+`;
+
+const StyledTravelTable39 = styled.div`
+  width: 98.19px;
+  height: 20px;
+  padding-right: 0.02px;
+  left: 8.50px;
+  top: 16.50px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer11 = styled.div`
+  width: 176.30px;
+  height: 36px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledContainer12 = styled.div`
+  width: 68px;
+  height: 32px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+`;
+
+const StyledNavbar = styled.div`
+  width: 1594px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #04AF9E;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer02 = styled.div`
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+`;
+
+const StyledContainer06 = styled.div`
+  width: 57.59px;
+  height: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledContainer07 = styled.div`
+  width: 80.06px;
+  height: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledContainer08 = styled.div`
+  width: 76.31px;
+  height: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledContainer09 = styled.div`
+  width: 75.05px;
+  height: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledContainer10 = styled.div`
+  width: 85.02px;
+  height: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledTableCell07 = styled.div`
+  width: 114.69px;
+  height: 53px;
+  left: 1397.31px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell15 = styled.div`
+  width: 114.69px;
+  height: 53px;
+  left: 1397.31px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell23 = styled.div`
+  width: 114.69px;
+  height: 53px;
+  left: 1397.31px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell31 = styled.div`
+  width: 114.69px;
+  height: 53px;
+  left: 1397.31px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell39 = styled.div`
+  width: 114.69px;
+  height: 53px;
+  left: 1397.31px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell47 = styled.div`
+  width: 114.69px;
+  height: 53px;
+  left: 1397.31px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell55 = styled.div`
+  width: 114.69px;
+  height: 53px;
+  left: 1397.31px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell63 = styled.div`
+  width: 114.69px;
+  height: 53px;
+  left: 1397.31px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell71 = styled.div`
+  width: 114.69px;
+  height: 53px;
+  left: 1397.31px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTableCell79 = styled.div`
+  width: 114.69px;
+  height: 53px;
+  left: 1397.31px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledTravelTable41 = styled.div`
+  align-self: stretch;
+  height: 36px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  display: inline-flex;
+`;
+
+const StyledContainer05 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  display: inline-flex;
+`;
+
+const StyledTableRow01 = styled.div`
+  width: 1512px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableRow02 = styled.div`
+  width: 1512px;
+  height: 53px;
+  left: 0px;
+  top: 53px;
+  position: absolute;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableRow03 = styled.div`
+  width: 1512px;
+  height: 53px;
+  left: 0px;
+  top: 106px;
+  position: absolute;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableRow04 = styled.div`
+  width: 1512px;
+  height: 53px;
+  left: 0px;
+  top: 159px;
+  position: absolute;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableRow05 = styled.div`
+  width: 1512px;
+  height: 53px;
+  left: 0px;
+  top: 212px;
+  position: absolute;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableRow06 = styled.div`
+  width: 1512px;
+  height: 53px;
+  left: 0px;
+  top: 265px;
+  position: absolute;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableRow07 = styled.div`
+  width: 1512px;
+  height: 53px;
+  left: 0px;
+  top: 318px;
+  position: absolute;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableRow08 = styled.div`
+  width: 1512px;
+  height: 53px;
+  left: 0px;
+  top: 371px;
+  position: absolute;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableRow09 = styled.div`
+  width: 1512px;
+  height: 53px;
+  left: 0px;
+  top: 424px;
+  position: absolute;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTableRow10 = styled.div`
+  width: 1512px;
+  height: 53px;
+  left: 0px;
+  top: 477px;
+  position: absolute;
+  border-bottom: 1px #CACACA solid;
+`;
+
+const StyledTravelFilters = styled.div`
+  align-self: stretch;
+  height: 84px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+`;
+
+const StyledTableBody = styled.div`
+  width: 1512px;
+  height: 530px;
+  left: 0px;
+  top: 40px;
+  position: absolute;
+`;
+
+const StyledTable = styled.div`
+  align-self: stretch;
+  height: 570.50px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledTravelTable = styled.div`
+  align-self: stretch;
+  height: 572.50px;
+  padding: 1px;
+  background: white;
+  overflow: hidden;
+  outline: 1px #CACACA solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledContainer01 = styled.div`
+  align-self: stretch;
+  height: 882.50px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+`;
+
+const StyledTravelManagement = styled.div`
+  width: 1594px;
+  height: 1064.50px;
+  padding-top: 64px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: white;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledViagens = styled.div`
+  width: 1594px;
+  height: 1065px;
+  position: relative;
+  background: white;
+`;
+
+export const Viagens = () => {
+  return (
+    <StyledViagens>
+      <StyledTravelManagement>
+        <StyledContainer>
+          <StyledHeading1>
+            <StyledPagetitle>Gestão de Viagens</StyledPagetitle>
+          </StyledHeading1>
+        </StyledContainer>
+        <StyledContainer01>
+          <StyledTravelFilters>
+            <StyledContainer02>
+              <StyledContainer03>
+                <StyledPrimitivebutton>
+                  <StyledPrimitivespan>
+                    <StyledLocationfilter>1086 - POSTO CCPR ALVINOPOLIS</StyledLocationfilter>
+                  </StyledPrimitivespan>
+                  <StyledIcon>
+                    <StyledVector />
+                  </StyledIcon>
+                </StyledPrimitivebutton>
+              </StyledContainer03>
+              <StyledContainer04>
+                <StyledPrimitivebutton01>
+                  <StyledPrimitivespan01>
+                    <StyledDatefilter>Março/2025</StyledDatefilter>
+                  </StyledPrimitivespan01>
+                  <StyledIcon01>
+                    <StyledVector01 />
+                  </StyledIcon01>
+                </StyledPrimitivebutton01>
+              </StyledContainer04>
+            </StyledContainer02>
+            <StyledContainer05>
+              <StyledPrimitivelabel>
+                <StyledStatuslabel>Status:</StyledStatuslabel>
+              </StyledPrimitivelabel>
+              <StyledContainer06>
+                <StyledPrimitivebutton02>
+                  <StyledPrimitivespan02>
+                    <StyledIcon02>
+                      <StyledVector02 />
+                    </StyledIcon02>
+                  </StyledPrimitivespan02>
+                </StyledPrimitivebutton02>
+                <StyledPrimitivelabel01>
+                  <StyledStatusnew>Novo</StyledStatusnew>
+                </StyledPrimitivelabel01>
+              </StyledContainer06>
+              <StyledContainer07>
+                <StyledPrimitivebutton03>
+                  <StyledPrimitivespan03>
+                    <StyledIcon03>
+                      <StyledVector03 />
+                    </StyledIcon03>
+                  </StyledPrimitivespan03>
+                </StyledPrimitivebutton03>
+                <StyledPrimitivelabel02>
+                  <StyledStatusreceived>Recebida</StyledStatusreceived>
+                </StyledPrimitivelabel02>
+              </StyledContainer07>
+              <StyledContainer08>
+                <StyledPrimitivebutton04>
+                  <StyledPrimitivespan04>
+                    <StyledIcon04>
+                      <StyledVector04 />
+                    </StyledIcon04>
+                  </StyledPrimitivespan04>
+                </StyledPrimitivebutton04>
+                <StyledPrimitivelabel03>
+                  <StyledStatusvalidated>Validada</StyledStatusvalidated>
+                </StyledPrimitivelabel03>
+              </StyledContainer08>
+              <StyledContainer09>
+                <StyledPrimitivebutton05>
+                  <StyledPrimitivespan05>
+                    <StyledIcon05>
+                      <StyledVector05 />
+                    </StyledIcon05>
+                  </StyledPrimitivespan05>
+                </StyledPrimitivebutton05>
+                <StyledPrimitivelabel04>
+                  <StyledStatusclosed>Fechada</StyledStatusclosed>
+                </StyledPrimitivelabel04>
+              </StyledContainer09>
+              <StyledContainer10>
+                <StyledPrimitivebutton06>
+                  <StyledPrimitivespan06>
+                    <StyledIcon06>
+                      <StyledVector06 />
+                    </StyledIcon06>
+                  </StyledPrimitivespan06>
+                </StyledPrimitivebutton06>
+                <StyledPrimitivelabel05>
+                  <StyledStatusremoved>Removida</StyledStatusremoved>
+                </StyledPrimitivelabel05>
+              </StyledContainer10>
+            </StyledContainer05>
+          </StyledTravelFilters>
+          <StyledTravelActions>
+            <StyledButton>
+              <StyledIcon07>
+                <StyledVector07 />
+                <StyledVector08 />
+              </StyledIcon07>
+              <StyledRecovertripbutton>Recuperar Viagem</StyledRecovertripbutton>
+            </StyledButton>
+            <StyledButton01>
+              <StyledIcon08>
+                <StyledVector10 />
+                <StyledVector11 />
+              </StyledIcon08>
+              <StyledReceivetripbutton>Receber Viagem</StyledReceivetripbutton>
+            </StyledButton01>
+            <StyledButton02>
+              <StyledIcon09>
+                <StyledVector14 />
+                <StyledVector16 />
+              </StyledIcon09>
+              <StyledRemovetripbutton>Remover Viagem</StyledRemovetripbutton>
+            </StyledButton02>
+            <StyledButton03>
+              <StyledIcon10 />
+              <StyledManualtripbutton>Viagem Manual</StyledManualtripbutton>
+            </StyledButton03>
+          </StyledTravelActions>
+          <StyledTravelTable>
+            <StyledTable>
+              <StyledTableHeader>
+                <StyledTableRow>
+                  <StyledTableHead>
+                    <StyledTableheaderselect>Selecionar</StyledTableheaderselect>
+                  </StyledTableHead>
+                  <StyledTableHead01>
+                    <StyledTableheaderstatus>Status</StyledTableheaderstatus>
+                  </StyledTableHead01>
+                  <StyledTableHead02>
+                    <StyledTableheadertrip>Viagem</StyledTableheadertrip>
+                  </StyledTableHead02>
+                  <StyledTableHead03>
+                    <StyledTableheaderdriver>Motorista</StyledTableheaderdriver>
+                  </StyledTableHead03>
+                  <StyledTableHead04>
+                    <StyledTableheadertransporter>Transportadora</StyledTableheadertransporter>
+                  </StyledTableHead04>
+                  <StyledTableHead05>
+                    <StyledTableheadertruckplate>Placa Caminhão</StyledTableheadertruckplate>
+                  </StyledTableHead05>
+                  <StyledTableHead06>
+                    <StyledTableheadertrailerplate>Placa Reboque</StyledTableheadertrailerplate>
+                  </StyledTableHead06>
+                  <StyledTableHead07>
+                    <StyledTableheaderroute>Rota</StyledTableheaderroute>
+                  </StyledTableHead07>
+                </StyledTableRow>
+              </StyledTableHeader>
+              <StyledTableBody>
+                <StyledTableRow01>
+                  <StyledTableCell>
+                    <StyledPrimitivebutton07 />
+                  </StyledTableCell>
+                  <StyledTableCell01>
+                    <StyledBadge>
+                      <StyledStatusbadgenew>NOVO</StyledStatusbadgenew>
+                    </StyledBadge>
+                  </StyledTableCell01>
+                  <StyledTableCell02>
+                    <StyledTrip200233604400>200233604400</StyledTrip200233604400>
+                  </StyledTableCell02>
+                  <StyledTableCell03>
+                    <StyledTravelTable01>
+                      <StyledIcon11>
+                        <StyledVector19 />
+                        <StyledVector20 />
+                      </StyledIcon11>
+                      <StyledText>
+                        <StyledDriverJooSilvaSantos>123.456.789-10 - João Silva Santos</StyledDriverJooSilvaSantos>
+                      </StyledText>
+                    </StyledTravelTable01>
+                  </StyledTableCell03>
+                  <StyledTableCell04>
+                    <StyledTravelTable02>
+                      <StyledIcon12>
+                        <StyledVector21 />
+                        <StyledVector23 />
+                        <StyledVector24 />
+                        <StyledVector25 />
+                      </StyledIcon12>
+                      <StyledText01>
+                        <StyledTransporter077>077 - Transportadora B</StyledTransporter077>
+                      </StyledText01>
+                    </StyledTravelTable02>
+                  </StyledTableCell04>
+                  <StyledTableCell05>
+                    <StyledTruckplateABC3E82>ABC-3E82</StyledTruckplateABC3E82>
+                  </StyledTableCell05>
+                  <StyledTableCell06>
+                    <StyledTrailerplateXYZ5678>XYZ-5678</StyledTrailerplateXYZ5678>
+                  </StyledTableCell06>
+                  <StyledTableCell07>
+                    <StyledTravelTable03>
+                      <StyledText02>
+                        <StyledRoute2231R>2231R</StyledRoute2231R>
+                      </StyledText02>
+                      <StyledSlotClone>
+                        <StyledTravelTable04>
+                          <StyledVector26 />
+                        </StyledTravelTable04>
+                      </StyledSlotClone>
+                    </StyledTravelTable03>
+                  </StyledTableCell07>
+                </StyledTableRow01>
+                <StyledTableRow02>
+                  <StyledTableCell08>
+                    <StyledPrimitivebutton08 />
+                  </StyledTableCell08>
+                  <StyledTableCell09>
+                    <StyledBadge01>
+                      <StyledStatusbadgenew01>NOVO</StyledStatusbadgenew01>
+                    </StyledBadge01>
+                  </StyledTableCell09>
+                  <StyledTableCell10>
+                    <StyledTrip200233604401>200233604401</StyledTrip200233604401>
+                  </StyledTableCell10>
+                  <StyledTableCell11>
+                    <StyledTravelTable05>
+                      <StyledIcon13>
+                        <StyledVector27 />
+                        <StyledVector28 />
+                      </StyledIcon13>
+                      <StyledText03>
+                        <StyledDriverMariaOliveiraCosta>987.654.321-00 - Maria Oliveira Costa</StyledDriverMariaOliveiraCosta>
+                      </StyledText03>
+                    </StyledTravelTable05>
+                  </StyledTableCell11>
+                  <StyledTableCell12>
+                    <StyledTravelTable06>
+                      <StyledIcon14>
+                        <StyledVector29 />
+                        <StyledVector31 />
+                        <StyledVector32 />
+                        <StyledVector33 />
+                      </StyledIcon14>
+                      <StyledText04>
+                        <StyledTransporter078>078 - Transportadora C</StyledTransporter078>
+                      </StyledText04>
+                    </StyledTravelTable06>
+                  </StyledTableCell12>
+                  <StyledTableCell13>
+                    <StyledTruckplateDEF4F93>DEF-4F93</StyledTruckplateDEF4F93>
+                  </StyledTableCell13>
+                  <StyledTableCell14>
+                    <StyledTrailerplateWXY9876>WXY-9876</StyledTrailerplateWXY9876>
+                  </StyledTableCell14>
+                  <StyledTableCell15>
+                    <StyledTravelTable07>
+                      <StyledText05>
+                        <StyledRoute2232R>2232R</StyledRoute2232R>
+                      </StyledText05>
+                      <StyledSlotClone01>
+                        <StyledTravelTable08>
+                          <StyledVector34 />
+                        </StyledTravelTable08>
+                      </StyledSlotClone01>
+                    </StyledTravelTable07>
+                  </StyledTableCell15>
+                </StyledTableRow02>
+                <StyledTableRow03>
+                  <StyledTableCell16>
+                    <StyledPrimitivebutton09 />
+                  </StyledTableCell16>
+                  <StyledTableCell17>
+                    <StyledBadge02>
+                      <StyledStatusbadgenew02>NOVO</StyledStatusbadgenew02>
+                    </StyledBadge02>
+                  </StyledTableCell17>
+                  <StyledTableCell18>
+                    <StyledTrip200233604402>200233604402</StyledTrip200233604402>
+                  </StyledTableCell18>
+                  <StyledTableCell19>
+                    <StyledTravelTable09>
+                      <StyledIcon15>
+                        <StyledVector35 />
+                        <StyledVector36 />
+                      </StyledIcon15>
+                      <StyledText06>
+                        <StyledDriverCarlosEduardoLima>456.789.123-45 - Carlos Eduardo Lima</StyledDriverCarlosEduardoLima>
+                      </StyledText06>
+                    </StyledTravelTable09>
+                  </StyledTableCell19>
+                  <StyledTableCell20>
+                    <StyledTravelTable10>
+                      <StyledIcon16>
+                        <StyledVector37 />
+                        <StyledVector39 />
+                        <StyledVector40 />
+                        <StyledVector41 />
+                      </StyledIcon16>
+                      <StyledText07>
+                        <StyledTransporter079>079 - Transportadora D</StyledTransporter079>
+                      </StyledText07>
+                    </StyledTravelTable10>
+                  </StyledTableCell20>
+                  <StyledTableCell21>
+                    <StyledTruckplateGHI5G04>GHI-5G04</StyledTruckplateGHI5G04>
+                  </StyledTableCell21>
+                  <StyledTableCell22>
+                    <StyledTrailerplateVUT5432>VUT-5432</StyledTrailerplateVUT5432>
+                  </StyledTableCell22>
+                  <StyledTableCell23>
+                    <StyledTravelTable11>
+                      <StyledText08>
+                        <StyledRoute2233R>2233R</StyledRoute2233R>
+                      </StyledText08>
+                      <StyledSlotClone02>
+                        <StyledTravelTable12>
+                          <StyledVector42 />
+                        </StyledTravelTable12>
+                      </StyledSlotClone02>
+                    </StyledTravelTable11>
+                  </StyledTableCell23>
+                </StyledTableRow03>
+                <StyledTableRow04>
+                  <StyledTableCell24>
+                    <StyledPrimitivebutton10 />
+                  </StyledTableCell24>
+                  <StyledTableCell25>
+                    <StyledBadge03>
+                      <StyledStatusbadgenew03>NOVO</StyledStatusbadgenew03>
+                    </StyledBadge03>
+                  </StyledTableCell25>
+                  <StyledTableCell26>
+                    <StyledTrip200233604403>200233604403</StyledTrip200233604403>
+                  </StyledTableCell26>
+                  <StyledTableCell27>
+                    <StyledTravelTable13>
+                      <StyledIcon17>
+                        <StyledVector43 />
+                        <StyledVector44 />
+                      </StyledIcon17>
+                      <StyledText09>
+                        <StyledDriverAnaPaulaFerreira>789.123.456-78 - Ana Paula Ferreira</StyledDriverAnaPaulaFerreira>
+                      </StyledText09>
+                    </StyledTravelTable13>
+                  </StyledTableCell27>
+                  <StyledTableCell28>
+                    <StyledTravelTable14>
+                      <StyledIcon18>
+                        <StyledVector45 />
+                        <StyledVector47 />
+                        <StyledVector48 />
+                        <StyledVector49 />
+                      </StyledIcon18>
+                      <StyledText10>
+                        <StyledTransporter080>080 - Transportadora E</StyledTransporter080>
+                      </StyledText10>
+                    </StyledTravelTable14>
+                  </StyledTableCell28>
+                  <StyledTableCell29>
+                    <StyledTruckplateJKL6H15>JKL-6H15</StyledTruckplateJKL6H15>
+                  </StyledTableCell29>
+                  <StyledTableCell30>
+                    <StyledTrailerplateSRQ3210>SRQ-3210</StyledTrailerplateSRQ3210>
+                  </StyledTableCell30>
+                  <StyledTableCell31>
+                    <StyledTravelTable15>
+                      <StyledText11>
+                        <StyledRoute2234R>2234R</StyledRoute2234R>
+                      </StyledText11>
+                      <StyledSlotClone03>
+                        <StyledTravelTable16>
+                          <StyledVector50 />
+                        </StyledTravelTable16>
+                      </StyledSlotClone03>
+                    </StyledTravelTable15>
+                  </StyledTableCell31>
+                </StyledTableRow04>
+                <StyledTableRow05>
+                  <StyledTableCell32>
+                    <StyledPrimitivebutton11 />
+                  </StyledTableCell32>
+                  <StyledTableCell33>
+                    <StyledBadge04>
+                      <StyledStatusbadgenew04>NOVO</StyledStatusbadgenew04>
+                    </StyledBadge04>
+                  </StyledTableCell33>
+                  <StyledTableCell34>
+                    <StyledTrip200233604404>200233604404</StyledTrip200233604404>
+                  </StyledTableCell34>
+                  <StyledTableCell35>
+                    <StyledTravelTable17>
+                      <StyledIcon19>
+                        <StyledVector51 />
+                        <StyledVector52 />
+                      </StyledIcon19>
+                      <StyledText12>
+                        <StyledDriverRobertoAlvesSouza>321.654.987-32 - Roberto Alves Souza</StyledDriverRobertoAlvesSouza>
+                      </StyledText12>
+                    </StyledTravelTable17>
+                  </StyledTableCell35>
+                  <StyledTableCell36>
+                    <StyledTravelTable18>
+                      <StyledIcon20>
+                        <StyledVector53 />
+                        <StyledVector55 />
+                        <StyledVector56 />
+                        <StyledVector57 />
+                      </StyledIcon20>
+                      <StyledText13>
+                        <StyledTransporter081>081 - Transportadora F</StyledTransporter081>
+                      </StyledText13>
+                    </StyledTravelTable18>
+                  </StyledTableCell36>
+                  <StyledTableCell37>
+                    <StyledTruckplateMNO7I26>MNO-7I26</StyledTruckplateMNO7I26>
+                  </StyledTableCell37>
+                  <StyledTableCell38>
+                    <StyledTrailerplatePON1098>PON-1098</StyledTrailerplatePON1098>
+                  </StyledTableCell38>
+                  <StyledTableCell39>
+                    <StyledTravelTable19>
+                      <StyledText14>
+                        <StyledRoute2235R>2235R</StyledRoute2235R>
+                      </StyledText14>
+                      <StyledSlotClone04>
+                        <StyledTravelTable20>
+                          <StyledVector58 />
+                        </StyledTravelTable20>
+                      </StyledSlotClone04>
+                    </StyledTravelTable19>
+                  </StyledTableCell39>
+                </StyledTableRow05>
+                <StyledTableRow06>
+                  <StyledTableCell40>
+                    <StyledPrimitivebutton12 />
+                  </StyledTableCell40>
+                  <StyledTableCell41>
+                    <StyledBadge05>
+                      <StyledStatusbadgereceived>RECEBIDA</StyledStatusbadgereceived>
+                    </StyledBadge05>
+                  </StyledTableCell41>
+                  <StyledTableCell42>
+                    <StyledTrip200233604405>200233604405</StyledTrip200233604405>
+                  </StyledTableCell42>
+                  <StyledTableCell43>
+                    <StyledTravelTable21>
+                      <StyledIcon21>
+                        <StyledVector59 />
+                        <StyledVector60 />
+                      </StyledIcon21>
+                      <StyledText15>
+                        <StyledDriverPaulaCristinaMendes>147.258.369-85 - Paula Cristina Mendes</StyledDriverPaulaCristinaMendes>
+                      </StyledText15>
+                    </StyledTravelTable21>
+                  </StyledTableCell43>
+                  <StyledTableCell44>
+                    <StyledTravelTable22>
+                      <StyledIcon22>
+                        <StyledVector61 />
+                        <StyledVector63 />
+                        <StyledVector64 />
+                        <StyledVector65 />
+                      </StyledIcon22>
+                      <StyledText16>
+                        <StyledTransporter082>082 - Transportadora G</StyledTransporter082>
+                      </StyledText16>
+                    </StyledTravelTable22>
+                  </StyledTableCell44>
+                  <StyledTableCell45>
+                    <StyledTruckplatePQR8J37>PQR-8J37</StyledTruckplatePQR8J37>
+                  </StyledTableCell45>
+                  <StyledTableCell46>
+                    <StyledTrailerplateMLK7654>MLK-7654</StyledTrailerplateMLK7654>
+                  </StyledTableCell46>
+                  <StyledTableCell47>
+                    <StyledTravelTable23>
+                      <StyledText17>
+                        <StyledRoute2236R>2236R</StyledRoute2236R>
+                      </StyledText17>
+                      <StyledSlotClone05>
+                        <StyledTravelTable24>
+                          <StyledVector66 />
+                        </StyledTravelTable24>
+                      </StyledSlotClone05>
+                    </StyledTravelTable23>
+                  </StyledTableCell47>
+                </StyledTableRow06>
+                <StyledTableRow07>
+                  <StyledTableCell48>
+                    <StyledPrimitivebutton13 />
+                  </StyledTableCell48>
+                  <StyledTableCell49>
+                    <StyledBadge06>
+                      <StyledStatusbadgereceived01>RECEBIDA</StyledStatusbadgereceived01>
+                    </StyledBadge06>
+                  </StyledTableCell49>
+                  <StyledTableCell50>
+                    <StyledTrip200233604406>200233604406</StyledTrip200233604406>
+                  </StyledTableCell50>
+                  <StyledTableCell51>
+                    <StyledTravelTable25>
+                      <StyledIcon23>
+                        <StyledVector67 />
+                        <StyledVector68 />
+                      </StyledIcon23>
+                      <StyledText18>
+                        <StyledDriverFernandoJosSilva>963.741.852-74 - Fernando José Silva</StyledDriverFernandoJosSilva>
+                      </StyledText18>
+                    </StyledTravelTable25>
+                  </StyledTableCell51>
+                  <StyledTableCell52>
+                    <StyledTravelTable26>
+                      <StyledIcon24>
+                        <StyledVector69 />
+                        <StyledVector71 />
+                        <StyledVector72 />
+                        <StyledVector73 />
+                      </StyledIcon24>
+                      <StyledText19>
+                        <StyledTransporter083>083 - Transportadora H</StyledTransporter083>
+                      </StyledText19>
+                    </StyledTravelTable26>
+                  </StyledTableCell52>
+                  <StyledTableCell53>
+                    <StyledTruckplateSTU9K48>STU-9K48</StyledTruckplateSTU9K48>
+                  </StyledTableCell53>
+                  <StyledTableCell54>
+                    <StyledTrailerplateJIH4321>JIH-4321</StyledTrailerplateJIH4321>
+                  </StyledTableCell54>
+                  <StyledTableCell55>
+                    <StyledTravelTable27>
+                      <StyledText20>
+                        <StyledRoute2237R>2237R</StyledRoute2237R>
+                      </StyledText20>
+                      <StyledSlotClone06>
+                        <StyledTravelTable28>
+                          <StyledVector74 />
+                        </StyledTravelTable28>
+                      </StyledSlotClone06>
+                    </StyledTravelTable27>
+                  </StyledTableCell55>
+                </StyledTableRow07>
+                <StyledTableRow08>
+                  <StyledTableCell56>
+                    <StyledPrimitivebutton14 />
+                  </StyledTableCell56>
+                  <StyledTableCell57>
+                    <StyledBadge07>
+                      <StyledStatusbadgereceived02>RECEBIDA</StyledStatusbadgereceived02>
+                    </StyledBadge07>
+                  </StyledTableCell57>
+                  <StyledTableCell58>
+                    <StyledTrip200233604407>200233604407</StyledTrip200233604407>
+                  </StyledTableCell58>
+                  <StyledTableCell59>
+                    <StyledTravelTable29>
+                      <StyledIcon25>
+                        <StyledVector75 />
+                        <StyledVector76 />
+                      </StyledIcon25>
+                      <StyledText21>
+                        <StyledDriverLucianaSantosOliveira>852.963.741-96 - Luciana Santos Oliveira</StyledDriverLucianaSantosOliveira>
+                      </StyledText21>
+                    </StyledTravelTable29>
+                  </StyledTableCell59>
+                  <StyledTableCell60>
+                    <StyledTravelTable30>
+                      <StyledIcon26>
+                        <StyledVector77 />
+                        <StyledVector79 />
+                        <StyledVector80 />
+                        <StyledVector81 />
+                      </StyledIcon26>
+                      <StyledText22>
+                        <StyledTransporter084>084 - Transportadora I</StyledTransporter084>
+                      </StyledText22>
+                    </StyledTravelTable30>
+                  </StyledTableCell60>
+                  <StyledTableCell61>
+                    <StyledTruckplateVWX0L59>VWX-0L59</StyledTruckplateVWX0L59>
+                  </StyledTableCell61>
+                  <StyledTableCell62>
+                    <StyledTrailerplateGFE8765>GFE-8765</StyledTrailerplateGFE8765>
+                  </StyledTableCell62>
+                  <StyledTableCell63>
+                    <StyledTravelTable31>
+                      <StyledText23>
+                        <StyledRoute2238R>2238R</StyledRoute2238R>
+                      </StyledText23>
+                      <StyledSlotClone07>
+                        <StyledTravelTable32>
+                          <StyledVector82 />
+                        </StyledTravelTable32>
+                      </StyledSlotClone07>
+                    </StyledTravelTable31>
+                  </StyledTableCell63>
+                </StyledTableRow08>
+                <StyledTableRow09>
+                  <StyledTableCell64>
+                    <StyledPrimitivebutton15 />
+                  </StyledTableCell64>
+                  <StyledTableCell65>
+                    <StyledBadge08>
+                      <StyledStatusbadgevalidated>VALIDADA</StyledStatusbadgevalidated>
+                    </StyledBadge08>
+                  </StyledTableCell65>
+                  <StyledTableCell66>
+                    <StyledTrip200233604408>200233604408</StyledTrip200233604408>
+                  </StyledTableCell66>
+                  <StyledTableCell67>
+                    <StyledTravelTable33>
+                      <StyledIcon27>
+                        <StyledVector83 />
+                        <StyledVector84 />
+                      </StyledIcon27>
+                      <StyledText24>
+                        <StyledDriverMarcosAntonioCosta>741.852.963-41 - Marcos Antonio Costa</StyledDriverMarcosAntonioCosta>
+                      </StyledText24>
+                    </StyledTravelTable33>
+                  </StyledTableCell67>
+                  <StyledTableCell68>
+                    <StyledTravelTable34>
+                      <StyledIcon28>
+                        <StyledVector85 />
+                        <StyledVector87 />
+                        <StyledVector88 />
+                        <StyledVector89 />
+                      </StyledIcon28>
+                      <StyledText25>
+                        <StyledTransporter085>085 - Transportadora J</StyledTransporter085>
+                      </StyledText25>
+                    </StyledTravelTable34>
+                  </StyledTableCell68>
+                  <StyledTableCell69>
+                    <StyledTruckplateYZA1M60>YZA-1M60</StyledTruckplateYZA1M60>
+                  </StyledTableCell69>
+                  <StyledTableCell70>
+                    <StyledTrailerplateDCB2109>DCB-2109</StyledTrailerplateDCB2109>
+                  </StyledTableCell70>
+                  <StyledTableCell71>
+                    <StyledTravelTable35>
+                      <StyledText26>
+                        <StyledRoute2239R>2239R</StyledRoute2239R>
+                      </StyledText26>
+                      <StyledSlotClone08>
+                        <StyledTravelTable36>
+                          <StyledVector90 />
+                        </StyledTravelTable36>
+                      </StyledSlotClone08>
+                    </StyledTravelTable35>
+                  </StyledTableCell71>
+                </StyledTableRow09>
+                <StyledTableRow10>
+                  <StyledTableCell72>
+                    <StyledPrimitivebutton16 />
+                  </StyledTableCell72>
+                  <StyledTableCell73>
+                    <StyledBadge09>
+                      <StyledStatusbadgevalidated01>VALIDADA</StyledStatusbadgevalidated01>
+                    </StyledBadge09>
+                  </StyledTableCell73>
+                  <StyledTableCell74>
+                    <StyledTrip200233604409>200233604409</StyledTrip200233604409>
+                  </StyledTableCell74>
+                  <StyledTableCell75>
+                    <StyledTravelTable37>
+                      <StyledIcon29>
+                        <StyledVector91 />
+                        <StyledVector92 />
+                      </StyledIcon29>
+                      <StyledText27>
+                        <StyledDriverSandraReginaLima>159.753.486-02 - Sandra Regina Lima</StyledDriverSandraReginaLima>
+                      </StyledText27>
+                    </StyledTravelTable37>
+                  </StyledTableCell75>
+                  <StyledTableCell76>
+                    <StyledTravelTable38>
+                      <StyledIcon30>
+                        <StyledVector93 />
+                        <StyledVector95 />
+                        <StyledVector96 />
+                        <StyledVector97 />
+                      </StyledIcon30>
+                      <StyledText28>
+                        <StyledTransporter086>086 - Transportadora K</StyledTransporter086>
+                      </StyledText28>
+                    </StyledTravelTable38>
+                  </StyledTableCell76>
+                  <StyledTableCell77>
+                    <StyledTruckplateBCD2N71>BCD-2N71</StyledTruckplateBCD2N71>
+                  </StyledTableCell77>
+                  <StyledTableCell78>
+                    <StyledTrailerplateAZY6543>AZY-6543</StyledTrailerplateAZY6543>
+                  </StyledTableCell78>
+                  <StyledTableCell79>
+                    <StyledTravelTable39>
+                      <StyledText29>
+                        <StyledRoute2240R>2240R</StyledRoute2240R>
+                      </StyledText29>
+                      <StyledSlotClone09>
+                        <StyledTravelTable40>
+                          <StyledVector98 />
+                        </StyledTravelTable40>
+                      </StyledSlotClone09>
+                    </StyledTravelTable39>
+                  </StyledTableCell79>
+                </StyledTableRow10>
+              </StyledTableBody>
+            </StyledTable>
+          </StyledTravelTable>
+          <StyledTravelTable41>
+            <StyledContainer11>
+              <StyledText30>
+                <StyledItemsperpagelabel>Itens por página:</StyledItemsperpagelabel>
+              </StyledText30>
+              <StyledPrimitivebutton17>
+                <StyledPrimitivespan07>
+                  <StyledItemsperpagevalue>10</StyledItemsperpagevalue>
+                </StyledPrimitivespan07>
+                <StyledIcon31>
+                  <StyledVector99 />
+                </StyledIcon31>
+              </StyledPrimitivebutton17>
+            </StyledContainer11>
+            <StyledText31>
+              <StyledPageinfo>Página 1 de 2</StyledPageinfo>
+            </StyledText31>
+            <StyledContainer12>
+              <StyledButton04>
+                <StyledIcon32>
+                  <StyledVector100 />
+                </StyledIcon32>
+              </StyledButton04>
+              <StyledButton05>
+                <StyledIcon33>
+                  <StyledVector101 />
+                </StyledIcon33>
+              </StyledButton05>
+            </StyledContainer12>
+          </StyledTravelTable41>
+        </StyledContainer01>
+      </StyledTravelManagement>
+      <StyledNavbar>
+        <StyledContainer13>
+          <StyledIcon34 />
+          <StyledImageWithFallback  src="https://placehold.co/110x32"/>
+        </StyledContainer13>
+        <StyledContainer14>
+          <StyledText32>
+            <StyledUsername>Amaral Amarantes</StyledUsername>
+          </StyledText32>
+          <StyledIcon35>
+            <StyledVector105 />
+            <StyledVector107 />
+          </StyledIcon35>
+        </StyledContainer14>
+      </StyledNavbar>
+    </StyledViagens>
+  );
+};
